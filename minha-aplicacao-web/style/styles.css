@@ -1,0 +1,288 @@
+body {
+    /* position: absolute; */
+    width: 517px;
+    height: 694px;
+
+    background: #eaf7ff;
+}
+
+header {
+    /* position: absolute; */
+    width: 517px;
+    height: 53px;
+
+    background: #BCF7FF;
+}
+
+header.img {
+    /* position: absolute; */
+    width: 36px;
+    height: 36px;
+
+    /* background: url(image.png); */
+}
+
+header button {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+
+.botao-menu-carros {
+    /* position: absolute; */
+    width: 85px;
+    height: 17px;
+}
+
+.botao-menu-lavagens {
+    /* position: absolute; */
+    width: 115px;
+    height: 17px;
+}
+
+.botao-menu-sair {
+    /* position: absolute; */
+    width: 27px;
+    height: 17px;
+    width: 46px;
+    height: 24px;
+
+    background: #8FF2FF;
+    border-radius: 5px;
+}
+
+h1 {
+    /* Lavadores disponíveis próximos de você... */
+
+    /* position: absolute; */
+    width: 331px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.busca {
+    /* Lavar Nissan Kicks */
+
+    /* position: absolute; */
+    width: 107px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.ordenar {
+    /* Ordenar por proximidade */
+
+    /* position: absolute; */
+    width: 142px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+
+/* CAIXA DO PRIMEIRO USUÁRIO */
+section {
+    /* Fundo da caixa dos usuários */
+
+    /* position: absolute; */
+    width: 446px;
+    height: 80px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.classificacao-usuarios img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+
+    /* background: url(image.png); */
+}
+
+.nome-do-usuario {
+    /* João Pereira */
+
+    /* position: absolute; */
+    width: 73px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.nota-do-usuario {
+    /* Nota 4.5 (998 avaliações) */
+
+    /* position: absolute; */
+    width: 127px;
+    height: 12px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #000000;
+}
+
+.valor {
+    /* R$ 80 */
+
+    /* position: absolute; */
+    width: 35px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* position: absolute; */
+    width: 59px;
+    height: 27px;
+
+    background: #DCFCFE;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.avaliacoes {
+    /* Ver avaliações */
+
+    /* position: absolute; */
+    width: 82px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.lavarMeuCarro {
+    /* Lavar meu carro */
+
+    /* position: absolute; */
+    width: 92px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #000000;
+
+    width: 103px;
+    height: 25px;
+
+    background: #8FF2FF;
+    border-radius: 5px;
+}
+
+/* RODAPÉ */
+.rodape {
+    position: absolute;
+    width: 517px;
+    height: 85px;
+
+    background: #BCF7FF;
+}
+
+.logo {
+    /* position: absolute; */
+    width: 24.2px;
+    height: 24.2px;
+    /* background: url(image.png);  */
+}
+
+.info-rodape {
+    /* Sobre */
+    /* position: absolute; */
+    width: 17px;
+    height: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+
+    color: #000000;
+}
+
+.instagram {
+    /* @turingwash */
+
+    position: absolute;
+    width: 38px;
+    height: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+
+    color: #000000;
+}
+
+.direitos-reservados {
+    /* 2022. TuringWash. Todos os direitos reservados */
+
+    position: absolute;
+    width: 91px;
+    height: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4px;
+    line-height: 5px;
+    color: #000000;
+}
