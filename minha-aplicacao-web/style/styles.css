@@ -7,17 +7,35 @@ body {
 }
 
 header {
-    /* position: absolute; */
+
+    /* background-color: #0f1726; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+
     width: 517px;
     height: 53px;
 
     background: #BCF7FF;
 }
 
-header.img {
+img.logo {
     /* position: absolute; */
     width: 36px;
     height: 36px;
+
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+    /* padding: 0px; */
 
     /* background: url(image.png); */
 }
@@ -36,12 +54,20 @@ header button {
 
 .botao-menu-carros {
     /* position: absolute; */
+
+    background-color: transparent;
+    border: none;
+
     width: 85px;
     height: 17px;
 }
 
 .botao-menu-lavagens {
     /* position: absolute; */
+
+    background-color: transparent;
+    border: none;
+
     width: 115px;
     height: 17px;
 }
@@ -55,6 +81,7 @@ header button {
 
     background: #8FF2FF;
     border-radius: 5px;
+    border-width: 0px;
 }
 
 h1 {
@@ -227,7 +254,13 @@ section {
 
 /* RODAPÉ */
 .rodape {
-    position: absolute;
+    /* position: absolute; */
+
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+
     width: 517px;
     height: 85px;
 
