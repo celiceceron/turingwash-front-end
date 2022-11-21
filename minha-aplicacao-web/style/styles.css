@@ -2,12 +2,16 @@ body {
     /* position: absolute; */
     width: 517px;
     height: 694px;
+    margin: 0;
+
+    /* display: flex; */
+    justify-content: center;
+    /* padding: 32px; */
 
     background: #eaf7ff;
 }
 
 header {
-
     /* background-color: #0f1726; */
     display: flex;
     align-items: center;
@@ -23,7 +27,7 @@ header {
     background: #BCF7FF;
 }
 
-img.logo {
+img.logoCabecalho {
     /* position: absolute; */
     width: 36px;
     height: 36px;
@@ -54,7 +58,7 @@ header button {
 
 .botao-menu-carros {
     /* position: absolute; */
-
+    white-space: nowrap;
     background-color: transparent;
     border: none;
 
@@ -267,7 +271,7 @@ section {
     background: #BCF7FF;
 }
 
-.logo {
+.logoRodape {
     /* position: absolute; */
     width: 24.2px;
     height: 24.2px;
