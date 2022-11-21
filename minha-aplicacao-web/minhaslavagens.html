@@ -16,71 +16,82 @@
   <!-- Começa a parte de CSS - Style -->
   <style>
 
+  .body {
+    /* position: absolute; */
+    width: 517px;
+    height: 694px;
+    margin: 0;
+    /* display: flex; */
+    justify-content: center;
+    /* padding: 32px; */
+    background: #eaf7ff;
+}
 
 .header {
-  background-color: #BCF7FF;
-  position: absolute;
-  width: 517px;
-  height: 53px;
-  /*display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 32px;
-  padding-left: 32px; */
+    /* background-color: #0f1726; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+
+    width: 517px;
+    height: 53px;
+
+    background: #BCF7FF;
 }
 
-.botao-menu-meuscarros{
-  width: 85px;
-  height: 17px;
-  border: none;
+.img.logo-turing-wash {
+    /* position: absolute; */
+    width: 36px;
+    height: 36px;
 
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
-  background-color: transparent;
-  white-space: nowrap;
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+    /* padding: 0px; */
 }
 
-.botao-menu-minhaslavagens{
-  background-color: transparent;
-  border: none;
-  width: 115px;
-  height: 17px;
+.botao-menu-meuscarros {
+    /* position: absolute; */
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
 
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
-  
+    width: 85px;
+    height: 17px;
 }
 
-.botao-menu-sair{
+.botao-menu-minhaslavagens {
+    /* position: absolute; */
+    background-color: transparent;
+    border: none;
+
+    width: 115px;
+    height: 17px;
+}
+
+.botao-menu-sair {
+    /* position: absolute; */
     width: 27px;
-    line-height: 17px;
+    height: 17px;
     width: 46px;
     height: 24px;
 
-    font-size: 14px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-
     background: #8FF2FF;
-    color: #000000;
     border-radius: 5px;
     border-width: 0px;
 }
 
-.h1{
+.cabecalho{
   /*position: absolute;*/
-  width: 132px;
+  width: 331px;
   height: 19px;
 
   font-family: 'Inter';
@@ -88,25 +99,122 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
 
   color: #000000;
 }
 
+/* CAIXA DOS LAVADORES */
+.informacoes-das-lavagens{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
 
-.rodape {
-    position: absolute; 
+  color: #000000;
+}
 
-    background-color: #fff;
-    display: flex;
-    padding: 32px;
-    width: 517px;
-    height: 85px;
-    background: #BCF7FF;
+.nome-lavador{
+  position: absolute;
+  width: 80px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.nome-carro{
+  position: absolute;
+  width: 118px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.nome-joana{
+  /*position: absolute;*/
+  width: 80px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.nome-matheus{
+  /*position: absolute;*/
+  width: 80px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.modelo-carro{
+  position: absolute;
+  width: 118px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.preco{
+  position: absolute;
+  width: 34px;
+  height: 15px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.data{
+  position: absolute;
+  width: 98px;
+  height: 12px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #000000;
 }
   </style>
   <!-- Final da parte de CSS - Style -->
-
 
 </head>
 <!-- Fim do Head -->
@@ -114,79 +222,78 @@
 <body>
 <!-- Cabeçalho_Header -->
 <header>
-  <img src="./img/turingwash-logo.svg" alt="turingwash" />
+  <img src="./img/turingwash-logo.svg" class="logo-turing-wash" alt="turingwash" />
 
   <button type="" class="botao-menu-meuscarros">Meus carros</button>
   <button type="" class="botao-menu-minhaslavagens">Minhas lavagens</button>
   <button type="" class="botao-menu-sair">Sair</button>
 </header>
-<!-- Fim do Cabeçalho_Header -->
-<!-- Começo do Main _Conteiner -->
-<div class="main-content">
+<div class="cabecalho">
   <h1 class="titulo">Minhas Lavagens</h1>
 </div>
-
-<!-- Conteiner card -->
- <!-- Card -->
+<main>
+<!-- Fim do Cabeçalho_Header -->
+<!-- Começo do Main _Conteiner -->
+<div class="lista-lavadores">
 <div class="informacoes-das-lavagens">
-  <h2 class="lavador-carro">Lavador</h2>
-  <h2 class="lavador-carro">Carro</h2>
+  <h2 class="nome-lavador">Lavador</h2>
+  <h2 class="nome-carro">Carro</h2>
 
-  <h3 class="nome-joana-carro">Joana Santos</h3>
-  <h3 class="nome-modelo-nissan">Nissan Kicks (2018)</h3>
+  <h3 class="nome-joana">Joana Santos</h3>
+  <h3 class="modelo-carro">Nissan Kicks (2018)</h3>
 
   <h3 class="preco">R$ 75</h3>
 
   <h4 class="data">1 de Agosto de 2022</h4>
 </div>
 </section>
-  <!-- Card -->
+
 <section>
 <div class="informacoes-das-lavagens">
-  <h2 class="lavador/carro">Lavador</h2>
-  <h2 class="lavador/carro">Carro</h2>
+  <h2 class="nome-lavador">Lavador</h2>
+  <h2 class="nome-carro">Carro</h2>
 
-  <h3 class="nome/modelo-carro">Joana Santos</h3>
-  <h3 class="nome/modelo-carro">Nissan Kicks (2018)</h3>
+  <h3 class="nome-joana">Joana Santos</h3>
+  <h3 class="modelo-carro">Nissan Kicks (2018)</h3>
 
   <h3 class="preco">R$ 75</h3>
 
   <h4 class="data">3 de Junho de 2022</h4>
 </div>
-  <!-- Card -->
-<div class="informacoes-das-lavagens">
-  <h2 class="lavador/carro">Lavador</h2>
-  <h2 class="lavador/carro">Carro</h2>
 
-  <h3 class="nome/modelo-carro">Matheus Oliveira</h3>
-  <h3 class="nome/modelo-carro">Chevrolet Onix (2015)</h3>
+<div class="informacoes-das-lavagens">
+  <h2 class="nome-lavador">Lavador</h2>
+  <h2 class="modelo-carro">Carro</h2>
+
+  <h3 class="nome-matheus">Matheus Oliveira</h3>
+  <h3 class="modelo-carro">Chevrolet Onix (2015)</h3>
 
   <h3 class="preco">R$ 60</h3>
 
   <h4 class="data">29 de Maio de 2022</h4>
 </div>
-  <!-- Card -->
-<div class="inforcacoes-das-lavagens">
-  <h2 class="lavador/carro">Lavador</h2>
-  <h2 class="lavador/carro">Carro</h2>
 
-  <h3 class="nome/modelo-carro">Joana Santos</h3>
-  <h3 class="nome/modelo-carro">Nissan Kicks (2018)</h3>
+<div class="informacoes-das-lavagens">
+  <h2 class="nome-lavador">Lavador</h2>
+  <h2 class="modelo-carro">Carro</h2>
+
+  <h3 class="nome-joana">Joana Santos</h3>
+  <h3 class="modelo-carro">Nissan Kicks (2018)</h3>
 
   <h3 class="preco">R$ 75</h3>
 
   <h4 class="data">20 de Abril de 2022</h4>
 </div>
+</div>
 </section>
 </main>
-<!-- Fim do Conteiner card -->
+
  <!-- Começo do Rodapé_Footer -->
 <footer>
 <div class="rodape">
   <div class="logo-rodape">
     <img src="./img/turingwash-logo.svg" alt="Logo TuringWash" />
   </div>
-
 
   <div class="informacoes-rodape">
     <h4 class="texto-rodape">
@@ -196,7 +303,6 @@
       <a class="info-rodape">Termos de uso</a> <br />
     </h4>
   </div>
-
 
   <div class="redes-sociais">
     <img src="" a="" alt="Instagram" />
