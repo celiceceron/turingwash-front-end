@@ -1,7 +1,8 @@
+<!-- Definição de formato do arquivo HTML -->
 <!DOCTYPE html>
-
+<!-- Conteúdo html do site -->
 <html lang="pt-br">
-
+<!-- Começo do Head -->
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,149 +13,136 @@
   <link rel="stylesheet" href="./style/styles.css"/>
   <!-- /tag para adicionar os estilos -->
 
+  <!-- Começa a parte de CSS - Style -->
   <style>
-    html, body, main{
-      height: 100%;
-    }
 
-    /*body{
-        margin: 0;
-        font-family: 'Poppins', sans-serif;
-      }
-      */
 
-    /*header*/
-    .botao-menu-meuscarros {
-    /* position: absolute; */
-    white-space: nowrap;
-    background-color: transparent;
-    border: none;
-
-    width: 85px;
-    height: 17px;
+.header {
+  background-color: #BCF7FF;
+  position: absolute;
+  width: 517px;
+  height: 53px;
+  /*display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px; */
 }
 
-    .botao-menu-minhalavagens {
-    /* position: absolute; */
-    white-space: nowrap;
-    background-color: transparent;
-    border: none;
+.botao-menu-meuscarros{
+  width: 85px;
+  height: 17px;
+  border: none;
 
-    width: 85px;
-    height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  background-color: transparent;
+  white-space: nowrap;
 }
 
-.botao-botao-menu-sair {
-    /* position: absolute; */
-    white-space: nowrap;
-    background-color: transparent;
-    border: none;
+.botao-menu-minhaslavagens{
+  background-color: transparent;
+  border: none;
+  width: 115px;
+  height: 17px;
 
-    width: 85px;
-    height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  
 }
 
-   /*footer*//* RODAPÉ */
+.botao-menu-sair{
+    width: 27px;
+    line-height: 17px;
+    width: 46px;
+    height: 24px;
+
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+
+    background: #8FF2FF;
+    color: #000000;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.h1{
+  /*position: absolute;*/
+  width: 132px;
+  height: 19px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+
+
 .rodape {
-    /* position: absolute; */
+    position: absolute; 
 
     background-color: #fff;
     display: flex;
-    justify-content: center;
     padding: 32px;
-
     width: 517px;
     height: 85px;
-
     background: #BCF7FF;
 }
-
-.logo-rodape {
-    /* position: absolute; */
-    width: 24.2px;
-    height: 24.2px;
-    /* background: url(image.png);  */
-}
-
-.informacoes-rodape {
-    /* Sobre */
-    /* position: absolute; */
-    width: 17px;
-    height: 7px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6px;
-    line-height: 7px;
-
-    color: #000000;
-}
-
-.redes-sociais {
-    /* @turingwash */
-
-    position: absolute;
-    width: 38px;
-    height: 7px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6px;
-    line-height: 7px;
-
-    color: #000000;
-}
-
-.direitos-reservados {
-    /* 2022. TuringWash. Todos os direitos reservados */
-
-    position: absolute;
-    width: 91px;
-    height: 5px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4px;
-    line-height: 5px;
-    color: #000000;
-}
-
   </style>
-    
-</head>
+  <!-- Final da parte de CSS - Style -->
 
+
+</head>
+<!-- Fim do Head -->
+<!-- Começo do body -->
+<body>
+<!-- Cabeçalho_Header -->
 <header>
-  <img src="./img/turingwash-logo.svg" alt="Logo TuringWash" />
+  <img src="./img/turingwash-logo.svg" alt="turingwash" />
 
   <button type="" class="botao-menu-meuscarros">Meus carros</button>
-  <button type="" class="botao-menu-minhalavagens">Minhas lavagens</button>
+  <button type="" class="botao-menu-minhaslavagens">Minhas lavagens</button>
   <button type="" class="botao-menu-sair">Sair</button>
 </header>
-
-<div class="cabecalho">
+<!-- Fim do Cabeçalho_Header -->
+<!-- Começo do Main _Conteiner -->
+<div class="main-content">
   <h1 class="titulo">Minhas Lavagens</h1>
 </div>
 
+<!-- Conteiner card -->
+ <!-- Card -->
+<div class="informacoes-das-lavagens">
+  <h2 class="lavador-carro">Lavador</h2>
+  <h2 class="lavador-carro">Carro</h2>
 
-<!-- caixa para ver as lavagens -->
-<div class="inforcacoes-das-lavagens">
-  <h2 class="lavador/carro">Lavador</h2>
-  <h2 class="lavador/carro">Carro</h2>
-
-  <h3 class="nome/modelo-carro">Joana Santos</h3>
-  <h3 class="nome/modelo-carro">Nissan Kicks (2018)</h3>
+  <h3 class="nome-joana-carro">Joana Santos</h3>
+  <h3 class="nome-modelo-nissan">Nissan Kicks (2018)</h3>
 
   <h3 class="preco">R$ 75</h3>
 
   <h4 class="data">1 de Agosto de 2022</h4>
 </div>
 </section>
-
+  <!-- Card -->
 <section>
-<div class="inforcacoes-das-lavagens">
+<div class="informacoes-das-lavagens">
   <h2 class="lavador/carro">Lavador</h2>
   <h2 class="lavador/carro">Carro</h2>
 
@@ -165,8 +153,8 @@
 
   <h4 class="data">3 de Junho de 2022</h4>
 </div>
-
-<div class="inforcacoes-das-lavagens">
+  <!-- Card -->
+<div class="informacoes-das-lavagens">
   <h2 class="lavador/carro">Lavador</h2>
   <h2 class="lavador/carro">Carro</h2>
 
@@ -177,7 +165,7 @@
 
   <h4 class="data">29 de Maio de 2022</h4>
 </div>
-
+  <!-- Card -->
 <div class="inforcacoes-das-lavagens">
   <h2 class="lavador/carro">Lavador</h2>
   <h2 class="lavador/carro">Carro</h2>
@@ -190,9 +178,9 @@
   <h4 class="data">20 de Abril de 2022</h4>
 </div>
 </section>
-
 </main>
-
+<!-- Fim do Conteiner card -->
+ <!-- Começo do Rodapé_Footer -->
 <footer>
 <div class="rodape">
   <div class="logo-rodape">
@@ -222,7 +210,7 @@
   <!-- tag para adicionar o javascript -->
   <script src="./script/scripts.js"></script>
   <!-- /tag para adicionar o javascript  -->
-
+</footer>
+ <!--Fim do Rodapé_Footer -->
 </body>
-
 </html>
