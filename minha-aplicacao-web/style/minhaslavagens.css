@@ -1,0 +1,275 @@
+  html,
+  body,
+  main {
+      height: 100%;
+  }
+
+  .body {
+      /* position: absolute; */
+      width: 517px;
+      height: 694px;
+      /*margin: 0;*/
+      /* display: flex; */
+      justify-content: center;
+      /* padding: 32px; */
+      background: #eaf7ff;
+  }
+
+  .header {
+      /* background-color: #0f1726; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-right: 32px;
+      padding-left: 32px;
+
+      width: 517px;
+      height: 53px;
+
+      background: #bcf7ff;
+  }
+
+  .logo-turing-wash {
+      /* position: absolute; */
+      width: 80px;
+      height: 80px;
+
+      background-color: transparent;
+      border: none;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-right: 0px;
+      padding-left: 0px;
+
+      /* padding: 0px; */
+  }
+
+  .botao-menu-meuscarros {
+      position: absolute;
+      white-space: nowrap;
+      background-color: transparent;
+      border: none;
+
+      width: 500px;
+      height: 17px;
+  }
+
+  .botao-menu-minhaslavagens {
+      position: absolute;
+      background-color: transparent;
+      border: none;
+
+      width: 750px;
+      height: 20px;
+  }
+
+  .botao-menu-sair {
+      /* position: absolute; */
+      width: 27px;
+      height: 17px;
+      width: 46px;
+      height: 24px;
+
+      background: #8ff2ff;
+      border-radius: 5px;
+      border-width: 0px;
+  }
+
+  .cabecalho {
+      /*position: absolute;*/
+      text-align: center;
+      width: 600px;
+      height: 19px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 400px;
+
+      padding-top: 32px;
+      padding-bottom: 32px;
+      padding-right: 16px;
+      padding-left: 16px;
+
+      color: #000000;
+  }
+
+  /* CAIXA DOS LAVADORES */
+  .informacoes-das-lavagens {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-right: 32px;
+      padding-left: 32px;
+
+      color: #000000;
+  }
+
+  .nome-lavador {
+      position: absolute;
+      width: 80px;
+      height: 30px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+
+      color: #000000;
+  }
+
+  .nome-carro {
+      position: absolute;
+      width: 118px;
+      height: 30px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+
+      color: #000000;
+  }
+
+  .nome-joana {
+      /*position: absolute;*/
+      width: 446px;
+      height: 80px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      background: #ffffff;
+      color: #000000;
+  }
+
+  .nome-matheus {
+      /*position: absolute;*/
+      width: 446px;
+      height: 80px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      background: #ffffff;
+
+      color: #000000;
+  }
+
+  .modelo-carro {
+      position: absolute;
+      width: 118px;
+      height: 30px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 50px;
+
+      color: #000000;
+  }
+
+  .preco {
+      position: right;
+      width: 34px;
+      height: 15px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 80px;
+
+      color: #000000;
+  }
+
+  .data {
+      position: right;
+      width: 98px;
+      height: 12px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+
+      color: #000000;
+  }
+
+  /* RODAPÉ */
+  .rodape {
+      position: absolute;
+
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 32px;
+
+      width: 517px;
+      height: 85px;
+
+      background: #bcf7ff;
+  }
+
+  .logo-rodape {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      /* background: url(image.png);  */
+  }
+
+  .info-rodape {
+      /* Sobre */
+      position: absolute;
+      width: 17px;
+      height: 7px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 6px;
+      line-height: 7px;
+
+      color: #000000;
+  }
+
+  .redes-sociais {
+      /* @turingwash */
+
+      position: absolute;
+      width: -500px;
+      height: -500px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 6px;
+      line-height: 7px;
+      color: #000000;
+  }
+
+  .direitos-reservados {
+      position: absolute;
+      width: 5px;
+      height: 5px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 4px;
+      line-height: 5px;
+      color: #000000;
+  }
