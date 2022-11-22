@@ -1,0 +1,87 @@
+html,
+body,
+main {
+    height: 100%;
+}
+
+body {
+  /* position: absolute; */
+  width: 517px;
+  height: 694px;
+  margin: 0;
+
+  /* display: flex; */
+  justify-content: center;
+  /* padding: 32px; */
+
+  background: #eaf7ff;
+}
+
+
+/* RODAPÉ */
+.rodape {
+    /* position: absolute; */
+
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+
+    width: 517px;
+    height: 85px;
+
+    background: #BCF7FF;
+}
+
+.logoRodape {
+    /* position: absolute; */
+    width: 24.2px;
+    height: 24.2px;
+    /* background: url(image.png);  */
+}
+
+.info-rodape {
+    /* Sobre */
+    /* position: absolute; */
+    width: 17px;
+    height: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+
+    color: #000000;
+}
+
+.instagram {
+    /* @turingwash */
+
+    position: absolute;
+    width: 38px;
+    height: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+
+    color: #000000;
+}
+
+.direitos-reservados {
+    /* 2022. TuringWash. Todos os direitos reservados */
+
+    position: absolute;
+    width: 91px;
+    height: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4px;
+    line-height: 5px;
+    color: #000000;
+}
