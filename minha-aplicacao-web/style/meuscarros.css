@@ -50,7 +50,7 @@ img.logoCabecalho {
     /* background: url(image.png); */
 }
 
-header.button {
+header button {
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
