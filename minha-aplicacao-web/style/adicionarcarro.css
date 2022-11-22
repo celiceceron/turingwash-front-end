@@ -17,6 +17,93 @@ body {
   background: #eaf7ff;
 }
 
+.header {
+    background-color: #0f1726;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+
+    width: 517px;
+    height: 53px;
+
+    background: #bcf7ff;
+}
+
+.logo-turing-wash {
+    /* position: absolute; */
+    width: 36px;
+    height: 36px;
+
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+    /* padding: 0px; */
+
+    /* background: url(image.png); */
+ }
+ header button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.botao-menu-meuscarros {
+    /*position: absolute; */
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
+
+    width: 85px;
+    height: 17px;
+}
+
+h1 {
+    /* position: absolute; */
+    width: 331px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.botao-menu-minhaslavagens {
+    /* position: absolute; */
+
+    background-color: transparent;
+    border: none;
+
+    width: 115px;
+    height: 17px;
+ }
+
+ .botao-menu-sair {
+    /* position: absolute; */
+    width: 27px;
+    height: 17px;
+    width: 46px;
+    height: 24px;
+
+    background: #8FF2FF;
+    border-radius: 5px;
+    border-width: 0px;
+}
 
 /* RODAPÉ */
 .rodape {
