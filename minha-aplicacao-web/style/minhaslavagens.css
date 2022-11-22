@@ -18,20 +18,20 @@
   }
 
   header {
-    /* background-color: #0f1726; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
+      /* background-color: #0f1726; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-right: 32px;
+      padding-left: 32px;
 
-    width: 517px;
-    height: 53px;
+      width: 517px;
+      height: 53px;
 
-    background: #BCF7FA;
-}
+      background: #BCF7FA;
+  }
 
   .logo-turing-wash {
       /* position: absolute; */
@@ -129,7 +129,7 @@
       font-size: 12px;
       line-height: 15px;
       line-height: 100%;
-     
+
       color: #000000;
   }
 
@@ -144,7 +144,7 @@
       line-height: 15px;
       line-height: 100%;
 
-    
+
       color: #000000;
   }
 

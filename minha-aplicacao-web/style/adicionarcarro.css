@@ -5,16 +5,16 @@ main {
 }
 
 body {
-  /* position: absolute; */
-  width: 517px;
-  height: 694px;
-  margin: 0;
+    /* position: absolute; */
+    width: 517px;
+    height: 694px;
+    margin: 0;
 
-  /* display: flex; */
-  justify-content: center;
-  /* padding: 32px; */
+    /* display: flex; */
+    justify-content: center;
+    /* padding: 32px; */
 
-  background: #eaf7ff;
+    background: #eaf7ff;
 }
 
 header {
@@ -48,9 +48,9 @@ header {
     /* padding: 0px; */
 
     /* background: url(image.png); */
- }
- 
- header button {
+}
+
+header button {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -78,9 +78,9 @@ header {
 
     width: 115px;
     height: 17px;
- }
+}
 
- .botao-menu-sair {
+.botao-menu-sair {
     /* position: absolute; */
     width: 27px;
     height: 17px;
@@ -154,9 +154,9 @@ h2 {
 
 .text-input::placeholder {
     color: #c7c7c7;
-  }
+}
 
-  .selecao{
+.selecao {
     width: 300px;
     border-radius: 100px;
     padding-top: 8px;
@@ -164,9 +164,9 @@ h2 {
     padding-right: 8px;
     padding-left: 8px;
     /* padding: 8px; */
-  }
+}
 
-  .selecao-ano{
+.selecao-ano {
     width: 100px;
     border-radius: 100px;
     padding-top: 8px;
@@ -174,7 +174,7 @@ h2 {
     padding-right: 8px;
     padding-left: 8px;
     /* padding: 8px; */
-  }
+}
 
 /* RODAPÉ */
 .rodape {
