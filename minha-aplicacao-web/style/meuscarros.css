@@ -1,0 +1,242 @@
+html,
+body,
+main {
+    height: 100%;
+}
+
+body {
+    /* position: absolute; */
+    width: 517px;
+    height: 694px;
+    margin: 0;
+
+    /* display: flex; */
+    justify-content: center;
+    /* padding: 32px; */
+
+    background: #eaf7ff;
+}
+
+header {
+    /* background-color: #0f1726; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+
+    width: 517px;
+    height: 53px;
+
+    background: #bcf7ff;
+}
+
+img.logoCabecalho {
+    /* position: absolute; */
+    width: 36px;
+    height: 36px;
+
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+    /* padding: 0px; */
+
+    /* background: url(image.png); */
+}
+
+header.button {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.botao-menu-carros {
+    /* position: absolute; */
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
+
+    width: 85px;
+    height: 17px;
+}
+
+.botao-menu-lavagens {
+    /* position: absolute; */
+
+    background-color: transparent;
+    border: none;
+
+    width: 115px;
+    height: 17px;
+}
+
+.botao-menu-sair {
+    /* position: absolute; */
+    width: 27px;
+    height: 17px;
+    width: 46px;
+    height: 24px;
+
+    background: #8ff2ff;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+h1 {
+    /*  Meus carros */
+
+    /* position: absolute; */
+    width: 331px;
+    height: 19px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.card1,
+.card2 {
+    /* position: absolute; */
+    width: 446px;
+    height: 80px;
+
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+h2 {
+    /* position: absolute; */
+    width: 76px;
+    height: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.excluir-carro {
+    /* position: absolute; */
+    width: 103px;
+    height: 25px;
+
+    background: #ff9b9b;
+    border-radius: 5px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.botao-adicionar-carro {
+    /* position: absolute; */
+    width: 103px;
+    height: 25px;
+
+    background: #8ff2ff;
+    border-radius: 5px;
+
+    /* position: absolute; */
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+/* RODAPÉ */
+.rodape {
+    /* position: absolute; */
+
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+
+    width: 517px;
+    height: 85px;
+
+    background: #bcf7ff;
+}
+
+.logoRodape {
+    /* position: absolute; */
+    width: 24.2px;
+    height: 24.2px;
+    /* background: url(image.png);  */
+}
+
+.info-rodape {
+    /* Sobre */
+    /* position: absolute; */
+    width: 17px;
+    height: 7px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+
+    color: #000000;
+}
+
+.instagram {
+    /* @turingwash */
+
+    position: absolute;
+    width: 38px;
+    height: 7px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+
+    color: #000000;
+}
+
+.direitos-reservados {
+    /* 2022. TuringWash. Todos os direitos reservados */
+
+    position: absolute;
+    width: 91px;
+    height: 5px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4px;
+    line-height: 5px;
+    color: #000000;
+}
