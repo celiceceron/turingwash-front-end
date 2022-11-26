@@ -1,24 +1,23 @@
   html,
   body,
-  main {
+  main,
+  header,
+  .rodape {
       height: 100%;
+      width: 100%;
+      margin: 0 auto;
+ 
   }
+ /* AJUSTEI TODOS OS TAMANHOS EM UM UNICO LUGAR E REMOVI OS DEMAIS */
+
 
   body {
-      /* position: absolute; */
-      width: 517px;
-      height: 694px;
-      margin: 0;
-
-      /* display: flex; */
       justify-content: center;
-      /* padding: 32px; */
-
       background: #eaf7ff;
   }
 
   header {
-      /* background-color: #0f1726; */
+      background-color: #0f1726; 
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -223,32 +222,47 @@
   }
 
   /* RODAPÉ */
+
+  @media screen and (max-width: 786px) {
+      footer {
+          width: 100%;
+          display: none;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+      footer {
+          width: 100%;
+          display: none;
+      }
+  }
+
   .rodape {
-      /* position: absolute; */
+      /*position: absolute;*/
 
       background-color: #fff;
       display: flex;
-      justify-content: center;
+      /*justify-content: center;*/
       padding: 32px;
-
-      width: 517px;
-      height: 85px;
-
       background: #BCF7FF;
+
   }
 
+
   .logoRodape {
-      /* position: absolute; */
+      /*position: absolute;*/
       width: 24.2px;
       height: 24.2px;
+
       /* background: url(image.png);  */
   }
 
   .info-rodape {
       /* Sobre */
-      /* position: absolute; */
+      /*position: absolute; */
       width: 17px;
       height: 7px;
+
 
       font-family: 'Inter';
       font-style: normal;
@@ -262,9 +276,10 @@
   .instagram {
       /* @turingwash */
 
-      position: absolute;
+      /*position: absolute;*/
       width: 38px;
       height: 7px;
+
 
       font-family: 'Inter';
       font-style: normal;
@@ -278,9 +293,10 @@
   .direitos-reservados {
       /* 2022. TuringWash. Todos os direitos reservados */
 
-      position: absolute;
+      /*position: absolute;*/
       width: 91px;
       height: 5px;
+
 
       font-family: 'Inter';
       font-style: normal;
