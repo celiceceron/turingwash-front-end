@@ -1,23 +1,17 @@
   html,
   body,
   main,
-  header,
   .rodape {
       height: 100%;
       width: 100%;
       margin: 0 auto;
- 
   }
- /* AJUSTEI TODOS OS TAMANHOS EM UM UNICO LUGAR E REMOVI OS DEMAIS */
 
+  /* AJUSTEI TODOS OS TAMANHOS EM UM UNICO LUGAR E REMOVI OS DEMAIS */
 
-  body {
-      justify-content: center;
-      background: #eaf7ff;
-  }
 
   header {
-      background-color: #0f1726; 
+      background-color: #0f1726;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -26,8 +20,9 @@
       padding-right: 32px;
       padding-left: 32px;
 
-      width: 517px;
+      width: auto;
       height: 53px;
+      margin: auto;
 
       background: #BCF7FA;
   }
@@ -81,14 +76,18 @@
 
   .botao-menu-sair {
       /* position: absolute; */
-      width: 27px;
-      height: 17px;
       width: 46px;
       height: 24px;
 
       background: #8FF2FF;
       border-radius: 5px;
       border-width: 0px;
+  }
+
+
+  body {
+      justify-content: center;
+      background: #eaf7ff;
   }
 
   h1 {
@@ -222,20 +221,14 @@
   }
 
   /* RODAPÉ */
-
-  @media screen and (max-width: 786px) {
+  /* APÓS COLOCAR O LAYOUT, USAR ESSE METODO PARA DEIXAR RESPONSIVO*/
+  /*@media screen and (max-width: 786px) {
       footer {
           width: 100%;
           display: none;
       }
-  }
+  }*/
 
-  @media screen and (max-width: 600px) {
-      footer {
-          width: 100%;
-          display: none;
-      }
-  }
 
   .rodape {
       /*position: absolute;*/
@@ -245,7 +238,6 @@
       /*justify-content: center;*/
       padding: 32px;
       background: #BCF7FF;
-
   }
 
 
@@ -276,17 +268,20 @@
   .instagram {
       /* @turingwash */
 
-      /*position: absolute;*/
-      width: 38px;
+      /*width: 380px;
       height: 7px;
+      top: 549rem;
+      left: 1957rem;*/
 
 
       font-family: 'Inter';
       font-style: normal;
-      font-weight: 400;
       font-size: 6px;
       line-height: 7px;
-
+      line-height: 100%;
+      vertical-align: top;
+      align-items: left;
+      fill: solid;
       color: #000000;
   }
 
@@ -294,8 +289,8 @@
       /* 2022. TuringWash. Todos os direitos reservados */
 
       /*position: absolute;*/
-      width: 91px;
-      height: 5px;
+      /*width: 91px;
+      height: 5px;*/
 
 
       font-family: 'Inter';
