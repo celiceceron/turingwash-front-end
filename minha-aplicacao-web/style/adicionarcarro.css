@@ -1,21 +1,14 @@
 html,
 body,
-main {
+main,
+.rodape {
     height: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 
-body {
-    /* position: absolute; */
-    width: 517px;
-    height: 694px;
-    margin: 0;
+/* AJUSTEI TODOS OS TAMANHOS EM UM UNICO LUGAR E REMOVI OS DEMAIS */
 
-    /* display: flex; */
-    justify-content: center;
-    /* padding: 32px; */
-
-    background: #eaf7ff;
-}
 
 header {
     /* background-color: #0f1726; */
@@ -27,8 +20,9 @@ header {
     padding-right: 32px;
     padding-left: 32px;
 
-    width: 517px;
+    width: auto;
     height: 53px;
+    margin: auto;
 
     background: #bcf7ff;
 }
@@ -92,6 +86,11 @@ header button {
     border-width: 0px;
 }
 
+body {
+    justify-content: center;
+    background: #eaf7ff;
+}
+
 h1 {
     /* position: absolute; */
     width: 331px;
@@ -107,12 +106,9 @@ h1 {
 }
 
 .card1 {
-    /* position: absolute; */
-    width: 446px;
-    height: 80px;
-
-    background: #ffffff;
-    border-radius: 10px;
+        background: #ffffff;
+        align-items: center;
+ 
 }
 
 h2 {
@@ -130,15 +126,12 @@ h2 {
 }
 
 .botao-adicionar-carro {
-    /* position: absolute; */
+
     width: 103px;
     height: 25px;
 
     background: #8ff2ff;
     border-radius: 5px;
-
-    /* position: absolute; */
-
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
@@ -149,11 +142,6 @@ h2 {
     text-align: center;
 
     color: #000000;
-}
-
-
-.text-input::placeholder {
-    color: #c7c7c7;
 }
 
 .selecao {
@@ -177,32 +165,40 @@ h2 {
 }
 
 /* RODAPÉ */
-.rodape {
-    /* position: absolute; */
+  /* APÓS COLOCAR O LAYOUT, USAR ESSE METODO PARA DEIXAR RESPONSIVO*/
+  /*@media screen and (max-width: 786px) {
+      footer {
+          width: 100%;
+          display: none;
+      }
+  }*/
+
+
+  .rodape {
+    /*position: absolute;*/
 
     background-color: #fff;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     padding: 32px;
-
-    width: 517px;
-    height: 85px;
-
     background: #BCF7FF;
 }
 
+
 .logoRodape {
-    /* position: absolute; */
+    /*position: absolute;*/
     width: 24.2px;
     height: 24.2px;
+
     /* background: url(image.png);  */
 }
 
 .info-rodape {
     /* Sobre */
-    /* position: absolute; */
+    /*position: absolute; */
     width: 17px;
     height: 7px;
+
 
     font-family: 'Inter';
     font-style: normal;
@@ -216,25 +212,30 @@ h2 {
 .instagram {
     /* @turingwash */
 
-    position: absolute;
-    width: 38px;
+    /*width: 380px;
     height: 7px;
+    top: 549rem;
+    left: 1957rem;*/
+
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 6px;
     line-height: 7px;
-
+    line-height: 100%;
+    vertical-align: top;
+    align-items: left;
+    fill: solid;
     color: #000000;
 }
 
 .direitos-reservados {
     /* 2022. TuringWash. Todos os direitos reservados */
 
-    position: absolute;
-    width: 91px;
-    height: 5px;
+    /*position: absolute;*/
+    /*width: 91px;
+    height: 5px;*/
+
 
     font-family: 'Inter';
     font-style: normal;
