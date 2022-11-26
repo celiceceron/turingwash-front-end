@@ -1,24 +1,15 @@
 html,
 body,
-main {
+/*main, AQUI NAO TEM MAIN, O NOME É SECTION*/
+section,
+.rodape {
     height: 100%;
-}
-
-body {
-    /* position: absolute; */
-    width: 517px;
-    height: 694px;
-    margin: 0;
-
-    /* display: flex; */
-    justify-content: center;
-    /* padding: 32px; */
-
-    background: #eaf7ff;
+    width: 100%;
+    margin: 0 auto;
 }
 
 header {
-    /* background-color: #0f1726; */
+    background-color: #0f1726; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,8 +18,9 @@ header {
     padding-right: 32px;
     padding-left: 32px;
 
-    width: 517px;
+    width: auto;
     height: 53px;
+    margin: auto;
 
     background: #bcf7ff;
 }
@@ -92,9 +84,13 @@ header button {
     border-width: 0px;
 }
 
+body {
+    justify-content: center;
+    background: #eaf7ff;
+}
+
 h1 {
     /*  Meus carros */
-
     /* position: absolute; */
     width: 331px;
     height: 19px;
@@ -110,10 +106,6 @@ h1 {
 
 .card1,
 .card2 {
-    /* position: absolute; */
-    width: 446px;
-    height: 80px;
-
     background: #ffffff;
     border-radius: 10px;
 }
@@ -175,33 +167,32 @@ h2 {
 
 /* RODAPÉ */
 .rodape {
-    /* position: absolute; */
+    /*position: absolute;*/
 
     background-color: #fff;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     padding: 32px;
-
-    width: 517px;
-    height: 85px;
-
-    background: #bcf7ff;
+    background: #BCF7FF;
 }
 
+
 .logoRodape {
-    /* position: absolute; */
+    /*position: absolute;*/
     width: 24.2px;
     height: 24.2px;
+
     /* background: url(image.png);  */
 }
 
 .info-rodape {
     /* Sobre */
-    /* position: absolute; */
+    /*position: absolute; */
     width: 17px;
     height: 7px;
 
-    font-family: "Inter";
+
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 6px;
@@ -213,27 +204,32 @@ h2 {
 .instagram {
     /* @turingwash */
 
-    position: absolute;
-    width: 38px;
+    /*width: 380px;
     height: 7px;
+    top: 549rem;
+    left: 1957rem;*/
 
-    font-family: "Inter";
+
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 6px;
     line-height: 7px;
-
+    line-height: 100%;
+    vertical-align: top;
+    align-items: left;
+    fill: solid;
     color: #000000;
 }
 
 .direitos-reservados {
     /* 2022. TuringWash. Todos os direitos reservados */
 
-    position: absolute;
-    width: 91px;
-    height: 5px;
+    /*position: absolute;*/
+    /*width: 91px;
+    height: 5px;*/
 
-    font-family: "Inter";
+
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 4px;
