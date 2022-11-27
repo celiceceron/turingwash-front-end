@@ -1,0 +1,262 @@
+html,
+body,
+main,
+.rodape {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* AJUSTEI TODOS OS TAMANHOS EM UM UNICO LUGAR E REMOVI OS DEMAIS */
+
+
+header {
+    background-color: #0f1726;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+    width: auto;
+    height: 53px;
+
+    background: #bcf7ff;
+}
+
+.logo-turing-wash {
+    width: 100px;
+    height: 100px;
+    /*padding-right: 466px;
+    padding-top: 16px;
+    padding-left: 25px;
+    padding-inline-end: 50px;*/
+
+    /* background: url(image.png); */
+}
+
+
+.botao-menu-carros {
+
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 25px;
+    line-height: 17px;
+
+    vertical-align: top;
+    padding-left: 330px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 350px;
+
+
+    color: #000000;
+
+    width: 85px;
+    height: 17px;
+}
+
+.botao-menu-lavagens {
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-style: bold;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 17px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 250px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 216px;
+
+    color: #000000;
+
+    width: 115px;
+    height: 17px;
+}
+
+.botao-menu-sair {
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 20px;
+    line-height: 30px;
+
+
+    text-align: left;
+    font-weight: 700;
+
+    background: #8FF2FF;
+    border: none;
+    padding-top: 30px;
+}
+
+body {
+    justify-content: center;
+    background: #eaf7ff;
+}
+
+h1 {
+    width: 331px;
+    height: 19px;
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+    padding-left: 198px;
+    padding-top: 79px;
+
+    padding-right: 198px;
+
+    color: #000000;
+}
+
+.card1 {
+    background: #ffffff;
+    align-items: center;
+
+}
+
+h2 {
+    /* position: absolute; */
+    width: 76px;
+    height: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.botao-adicionar-carro {
+    
+   background-color: #8ff2ff;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 1000px; 
+    margin-right: 0 auto;
+
+    color: #000000;
+}
+
+.selecao {
+    width: 300px;
+    border-radius: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    /* padding: 8px; */
+}
+
+.selecao-ano {
+    width: 100px;
+    border-radius: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    /* padding: 8px; */
+}
+
+/* RODAPÉ */
+/* APÓS COLOCAR O LAYOUT, USAR ESSE METODO PARA DEIXAR RESPONSIVO*/
+@media screen and (max-width: 786px) {
+      .rodape {
+          width: 100%;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .rodape {
+        width: 100%;
+    }
+}
+
+
+.rodape {
+
+    background-color: #fff;
+    padding: 16px;
+    background: #BCF7FF;
+
+	
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding-right: 466px;
+    padding-top: 16px;
+    padding-left: 25px;
+    padding-inline-end: 50px;
+    vertical-align: bottom;
+
+
+    /* background: url(image.png);  */
+}
+
+.info-rodape {
+    /* Sobre */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 500px;
+
+
+    color: #000000;
+}
+
+.instagram {
+    /* @turingwash */
+
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 7px;
+    vertical-align: top;
+    font-weight: 400;
+    color: #000000;
+}
+
+.logo-insta {
+    /* logoinsta */
+    position: absolute;
+    right: 50px;
+
+}
+
+.direitos-reservados {
+    /* 2022. TuringWash. Todos os direitos reservados */
+
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 5px;
+    color: #000000;
+}

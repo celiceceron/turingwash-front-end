@@ -1,22 +1,17 @@
   html,
   body,
-  main {
+  main,
+  .rodape {
       height: 100%;
+      width: 100%;
+      margin: 0 auto;
   }
 
-  .body {
-      /* position: absolute; */
-      width: 517px;
-      height: 694px;
-      /*margin: 0;*/
-      /* display: flex; */
-      justify-content: center;
-      /* padding: 32px; */
-      background: #eaf7ff;
-  }
+  /* AJUSTEI TODOS OS TAMANHOS EM UM UNICO LUGAR E REMOVI OS DEMAIS */
 
-  .header {
-      /* background-color: #0f1726; */
+
+  header {
+      background-color: #0f1726;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -25,16 +20,17 @@
       padding-right: 32px;
       padding-left: 32px;
 
-      width: 517px;
+      width: auto;
       height: 53px;
+      margin: auto;
 
-      background: #bcf7ff;
+      background: #BCF7FA;
   }
 
   .logo-turing-wash {
       /* position: absolute; */
-      width: 80px;
-      height: 80px;
+      width: 36px;
+      height: 36px;
 
       background-color: transparent;
       border: none;
@@ -44,60 +40,72 @@
       padding-left: 0px;
 
       /* padding: 0px; */
+
+      /* background: url(image.png); */
+  }
+
+  header button {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
   }
 
   .botao-menu-meuscarros {
-      position: absolute;
+      /*position: absolute; */
       white-space: nowrap;
       background-color: transparent;
       border: none;
 
-      width: 500px;
+      width: 85px;
       height: 17px;
   }
 
   .botao-menu-minhaslavagens {
-      position: absolute;
+      /* position: absolute; */
+
       background-color: transparent;
       border: none;
 
-      width: 750px;
-      height: 20px;
+      width: 115px;
+      height: 17px;
   }
 
   .botao-menu-sair {
       /* position: absolute; */
-      width: 27px;
-      height: 17px;
       width: 46px;
       height: 24px;
 
-      background: #8ff2ff;
+      background: #8FF2FF;
       border-radius: 5px;
       border-width: 0px;
   }
 
-  .cabecalho {
-      /*position: absolute;*/
-      text-align: center;
-      width: 600px;
+
+  body {
+      justify-content: center;
+      background: #eaf7ff;
+  }
+
+  h1 {
+      /* position: absolute; */
+      width: 331px;
       height: 19px;
 
-      font-family: "Inter";
+      font-family: 'Inter';
       font-style: normal;
       font-weight: 700;
-      font-size: 20px;
-      line-height: 400px;
-
-      padding-top: 32px;
-      padding-bottom: 32px;
-      padding-right: 16px;
-      padding-left: 16px;
+      font-size: 16px;
+      line-height: 19px;
 
       color: #000000;
   }
 
   /* CAIXA DOS LAVADORES */
+
   .informacoes-das-lavagens {
       display: flex;
       align-items: center;
@@ -116,10 +124,10 @@
       height: 30px;
 
       font-family: "Inter";
-      font-style: normal;
-      font-weight: 400;
+      font-style: mixed;
       font-size: 12px;
       line-height: 15px;
+      line-height: 100%;
 
       color: #000000;
   }
@@ -130,31 +138,31 @@
       height: 30px;
 
       font-family: "Inter";
-      font-style: normal;
-      font-weight: 400;
+      font-style: mixed;
       font-size: 12px;
       line-height: 15px;
+      line-height: 100%;
+
 
       color: #000000;
   }
 
   .nome-joana {
-      /*position: absolute;*/
-      width: 446px;
+      width: 100%;
       height: 80px;
 
       font-family: "Inter";
       font-style: normal;
-      font-weight: 400;
+      font-weight: auto;
       font-size: 12px;
-      line-height: 15px;
+
       background: #ffffff;
       color: #000000;
+
   }
 
   .nome-matheus {
-      /*position: absolute;*/
-      width: 446px;
+      width: 100%;
       height: 80px;
 
       font-family: "Inter";
@@ -182,62 +190,73 @@
   }
 
   .preco {
-      position: right;
+      position: left;
       width: 34px;
       height: 15px;
 
       font-family: "Inter";
-      font-style: normal;
-      font-weight: 700;
+      font-style: bold;
       font-size: 12px;
       line-height: 80px;
+      line-height: 100%;
+      background: #DCFCFE;
+      border-radius: 0px 10px 0px 0px;
 
       color: #000000;
   }
 
+
   .data {
-      position: right;
+      position: left;
       width: 98px;
       height: 12px;
 
       font-family: "Inter";
-      font-style: normal;
-      font-weight: 400;
+      font-style: Regular;
       font-size: 10px;
       line-height: 12px;
+      line-height: 100%;
 
       color: #000000;
   }
 
   /* RODAPÉ */
+  /* APÓS COLOCAR O LAYOUT, USAR ESSE METODO PARA DEIXAR RESPONSIVO*/
+  /*@media screen and (max-width: 786px) {
+      footer {
+          width: 100%;
+          display: none;
+      }
+  }*/
+
+
   .rodape {
-      position: absolute;
+      /*position: absolute;*/
 
       background-color: #fff;
       display: flex;
-      justify-content: center;
+      /*justify-content: center;*/
       padding: 32px;
-
-      width: 517px;
-      height: 85px;
-
-      background: #bcf7ff;
+      background: #BCF7FF;
   }
 
-  .logo-rodape {
-      position: absolute;
-      width: 500px;
-      height: 500px;
+
+  .logoRodape {
+      /*position: absolute;*/
+      width: 24.2px;
+      height: 24.2px;
+
       /* background: url(image.png);  */
   }
 
   .info-rodape {
       /* Sobre */
-      position: absolute;
+      /*position: absolute; */
       width: 17px;
       height: 7px;
 
-      font-family: "Inter";
+
+      font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
       font-size: 6px;
@@ -246,27 +265,35 @@
       color: #000000;
   }
 
-  .redes-sociais {
+  .instagram {
       /* @turingwash */
 
-      position: absolute;
-      width: -500px;
-      height: -500px;
+      /*width: 380px;
+      height: 7px;
+      top: 549rem;
+      left: 1957rem;*/
 
-      font-family: "Inter";
+
+      font-family: 'Inter';
       font-style: normal;
-      font-weight: 400;
       font-size: 6px;
       line-height: 7px;
+      line-height: 100%;
+      vertical-align: top;
+      align-items: left;
+      fill: solid;
       color: #000000;
   }
 
   .direitos-reservados {
-      position: absolute;
-      width: 5px;
-      height: 5px;
+      /* 2022. TuringWash. Todos os direitos reservados */
 
-      font-family: "Inter";
+      /*position: absolute;*/
+      /*width: 91px;
+      height: 5px;*/
+
+
+      font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
       font-size: 4px;

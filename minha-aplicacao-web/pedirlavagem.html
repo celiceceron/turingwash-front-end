@@ -1,189 +1,173 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TuringWash</title>
 
-    <!-- tag para adicionar os estilos -->
-    <link rel="stylesheet" href="./style/pedirlavagem.css" />
-    <!-- /tag para adicionar os estilos -->
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TuringWash</title>
 
-  <body>
-    <nav class="navbar">
-      <div class="brand-title">
-        <img
-          src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/465948d7899c416b18556a24b547c99342a43c28/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/turingwash-logo.svg"
-          class="logoCabecalho"
-          alt="Logo TuringWash"
-        />
-      </div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="#">Meus carros</a></li>
-          <li><a href="#">Minhas lavagens</a></li>
-          <li><a href="#" class="botao-sair">Sair</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="cabecalho">
-      <h1 class="titulo">Lavadores disponíveis próximos de você...</h1>
+  <!-- tag para adicionar os estilos -->
+  <link rel="stylesheet" href="./style/pedirlavagem.css" />
+  <!-- /tag para adicionar os estilos -->
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand-title">
+       <img src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/465948d7899c416b18556a24b547c99342a43c28/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/turingwash-logo.svg"
+    class="logoCabecalho"
+    alt="Logo TuringWash"
+  />
     </div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">Meus carros</a></li>
+        <li><a href="#">Minhas lavagens</a></li>
+        <li><a href="#" class="botao-sair">Sair</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <main>
-      <div class="busca">Lavar <a>Nissan Kicks</a></div>
+  <main>
+    <div class="busca">Lavar <a>Nissan Kicks</a></div>
 
-      <div class="ordenar">Ordenar por <a>proximidade</a></div>
+    <div class="ordenar">Ordenar por <a>proximidade</a></div>
 
-      <!-- caixa com os usuários -->
-      <div class="classificacao-usuarios">
-        <section>
-          <!-- caixa do primeiro usuário -->
-          <div class="caixa-do-usuario">
-            <div class="informacao-usuario">
-              <img
-                src="./img/profile.png"
-                class="imagem-usuario"
-                alt="Imagem Perfil"
-              />
-              <h2 class="nome-do-usuario">João Pereira</h2>
-            </div>
+    <!-- caixa com os usuários -->
+    <div class="classificacao-usuarios">
+      <section>
+        <!-- caixa do primeiro usuário -->
+        <div class="caixa-do-usuario">
+          <div class="informacao-usuario">
+            <img src="./img/profile.png" class="imagem-usuario" alt="Imagem Perfil" />
+            <h2 class="nome-do-usuario">João Pereira</h2>
+          </div>
 
-            <div class="caixa-de-informacoes">
-              <div class="valores-info">
-                <h3 class="nota-do-usuario">Nota 4.5 (998 avaliações)</h3>
-                <h3 class="valor">R$80</h3>
-                <a class="avaliacoes">Ver avaliações</a>
-                <button class="lavarMeuCarro" type="submit">
-                  Lavar meu carro
-                </button>
-              </div>
+          <div class="caixa-de-informacoes">
+            <div class="valores-info">
+              <h3 class="nota-do-usuario">Nota 4.5 (998 avaliações)</h3>
+              <h3 class="valor">R$80</h3>
+              <a class="avaliacoes">Ver avaliações</a>
+              <button class="lavarMeuCarro" type="submit">
+                Lavar meu carro
+              </button>
             </div>
           </div>
-          <!-- /caixa do primeiro usuário -->
-        </section>
+        </div>
+        <!-- /caixa do primeiro usuário -->
+      </section>
 
-        <section>
-          <!-- caixa do segundo usuário -->
-          <div class="caixa-do-usuario">
-            <div class="informacao-usuario">
-              <img
-                src="./img/profile.png"
-                class="imagem-usuario"
-                alt="Imagem Perfil"
-              />
-              <h2 class="nome-do-usuario">Joana Santos</h2>
-            </div>
+      <section>
+        <!-- caixa do segundo usuário -->
+        <div class="caixa-do-usuario">
+          <div class="informacao-usuario">
+            <img src="./img/profile.png" class="imagem-usuario" alt="Imagem Perfil" />
+            <h2 class="nome-do-usuario">Joana Santos</h2>
+          </div>
 
-            <div class="caixa-de-informacoes">
-              <div class="valores-info">
-                <h3 class="nota-do-usuario">Nota 4.7 (489 avaliações)</h3>
-                <h3 class="valor">R$75</h3>
-                <a class="avaliacoes">Ver avaliações</a>
-                <button class="lavarMeuCarro" type="submit">
-                  Lavar meu carro
-                </button>
-              </div>
+          <div class="caixa-de-informacoes">
+            <div class="valores-info">
+              <h3 class="nota-do-usuario">Nota 4.7 (489 avaliações)</h3>
+              <h3 class="valor">R$75</h3>
+              <a class="avaliacoes">Ver avaliações</a>
+              <button class="lavarMeuCarro" type="submit">
+                Lavar meu carro
+              </button>
             </div>
           </div>
-          <!-- /caixa do segundo usuário -->
-        </section>
+        </div>
+        <!-- /caixa do segundo usuário -->
+      </section>
 
-        <section>
-          <!-- caixa do terceiro usuário -->
-          <div class="caixa-do-usuario">
-            <div class="informacao-usuario">
-              <img
-                src="./img/profile.png"
-                class="imagem-usuario"
-                alt="Imagem Perfil"
-              />
-              <h2 class="nome-do-usuario">Matheus Oliveira</h2>
-            </div>
+      <section>
+        <!-- caixa do terceiro usuário -->
+        <div class="caixa-do-usuario">
+          <div class="informacao-usuario">
+            <img src="./img/profile.png" class="imagem-usuario" alt="Imagem Perfil" />
+            <h2 class="nome-do-usuario">Matheus Oliveira</h2>
+          </div>
 
-            <div class="caixa-de-informacoes">
-              <div class="valores-info">
-                <h3 class="nota-do-usuario">Nota 4.3 (783 avaliações)</h3>
-                <h3 class="valor">R$90</h3>
-                <a class="avaliacoes">Ver avaliações</a>
-                <button class="lavarMeuCarro" type="submit">
-                  Lavar meu carro
-                </button>
-              </div>
+          <div class="caixa-de-informacoes">
+            <div class="valores-info">
+              <h3 class="nota-do-usuario">Nota 4.3 (783 avaliações)</h3>
+              <h3 class="valor">R$90</h3>
+              <a class="avaliacoes">Ver avaliações</a>
+              <button class="lavarMeuCarro" type="submit">
+                Lavar meu carro
+              </button>
             </div>
           </div>
-          <!-- /caixa do terceiro usuário -->
-        </section>
+        </div>
+        <!-- /caixa do terceiro usuário -->
+      </section>
 
-        <section>
-          <!-- caixa do quarto usuário -->
-          <div class="caixa-do-usuario">
-            <div class="informacao-usuario">
-              <img
-                src="./img/profile.png"
-                class="imagem-usuario"
-                alt="Imagem Perfil"
-              />
-              <h2 class="nome-do-usuario">Pedro Sampaio</h2>
-            </div>
+      <section>
+        <!-- caixa do quarto usuário -->
+        <div class="caixa-do-usuario">
+          <div class="informacao-usuario">
+            <img src="./img/profile.png" class="imagem-usuario" alt="Imagem Perfil" />
+            <h2 class="nome-do-usuario">Pedro Sampaio</h2>
+          </div>
 
-            <div class="caixa-de-informacoes">
-              <div class="valores-info">
-                <h3 class="nota-do-usuario">Nota 4.1 (801 avaliações)</h3>
-                <h3 class="valor">R$60</h3>
-                <a class="avaliacoes">Ver avaliações</a>
-                <button class="lavarMeuCarro" type="submit">
-                  Lavar meu carro
-                </button>
-              </div>
+          <div class="caixa-de-informacoes">
+            <div class="valores-info">
+              <h3 class="nota-do-usuario">Nota 4.1 (801 avaliações)</h3>
+              <h3 class="valor">R$60</h3>
+              <a class="avaliacoes">Ver avaliações</a>
+              <button class="lavarMeuCarro" type="submit">
+                Lavar meu carro
+              </button>
             </div>
           </div>
-          <!-- /caixa do quarto usuário -->
-        </section>
+        </div>
+        <!-- /caixa do quarto usuário -->
+      </section>
+    </div>
+    <!-- /caixa com os usuários -->
+  </main>
+
+  <footer>
+    <div class="rodape">
+      <div class="logo-rodape">
+        <img src="./img/turingwash-icon.svg" class="logoRodape" alt="Logo TuringWash" />
       </div>
-      <!-- /caixa com os usuários -->
-    </main>
 
-    <footer>
-      <div class="rodape">
-        <div class="logo-rodape">
-          <img
-            src="./img/turingwash-icon.svg"
-            class="logoRodape"
-            alt="Logo TuringWash"
-          />
-        </div>
-
-        <div class="informacoes-rodape">
-          <h4 class="texto-rodape">
-            <a class="info-rodape">Sobre</a> <br />
-            <a class="info-rodape">FAQ</a> <br />
-            <a class="info-rodape">Contato</a> <br />
-            <a class="info-rodape">Termos de uso</a> <br />
-          </h4>
-        </div>
-
-        <div class="redes-sociais">
-          <img src="" a="" alt="Instagram" />
-          <h4 class="instagram" a="">@turingwash</h4>
-          <h5 class="direitos-reservados">
-            2022. TuringWash. Todos os direitos reservados
-          </h5>
-        </div>
+      <div class="informacoes-rodape">
+        <h4 class="texto-rodape">
+          <a class="info-rodape">Sobre</a> <br />
+          <a class="info-rodape">FAQ</a> <br />
+          <a class="info-rodape">Contato</a> <br />
+          <a class="info-rodape">Termos de uso</a> <br />
+        </h4>
       </div>
-    </footer>
 
+<<<<<<< HEAD
     <!-- tag para adicionar o javascript -->
     <script src="./script/pedirlavagem.js"></script>
     <!-- /tag para adicionar o javascript  -->
   </body>
 </html>
+=======
+      <div class="redes-sociais">
+        <img src="./img/insta.png" a="" alt="Instagram" />
+        <h4 class="instagram" a="">@turingwash</h4>
+        <h5 class="direitos-reservados">
+          2022. TuringWash. Todos os direitos reservados
+        </h5>
+      </div>
+    </div>
+  </footer>
+
+  <!-- tag para adicionar o javascript -->
+  <script src="./script/scripts.js"></script>
+  <!-- /tag para adicionar o javascript  -->
+</body>
+
+</html>
+>>>>>>> 862b428011b1fc1ea743b08f8e717117ba1d3b2e
