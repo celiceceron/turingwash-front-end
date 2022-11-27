@@ -1,87 +1,125 @@
-html,
-body,
-/*main, AQUI NAO TEM MAIN, O NOME É SECTION*/
-section,
-.rodape {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
+* {
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #0f1726; 
+html{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  background-color: #EAF7FF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
     display: flex;
-    align-items: center;
+    position: relative;
     justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
-
-    width: auto;
-    height: 53px;
-    margin: auto;
-
-    background: #bcf7ff;
+    align-items: center;
+    background-color: #BCF7FF;
+    color: #000;
 }
 
-img.logoCabecalho {
-    /* position: absolute; */
-    width: 36px;
-    height: 36px;
-
-    background-color: transparent;
-    border: none;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-
-    /* padding: 0px; */
-
-    /* background: url(image.png); */
+.brand-title {
+    font-size: 1.8rem;
+    margin: 1rem;
 }
 
-header button {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-
-    color: #000000;
+.navbar-links {
+    height: 100%;
 }
 
-.botao-menu-carros {
-    /* position: absolute; */
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+  
+    font-family: 'Inter';
+    font: normal;
+  
     white-space: nowrap;
     background-color: transparent;
     border: none;
-
-    width: 85px;
-    height: 17px;
+    margin-right: .2rem;
 }
 
-.botao-menu-lavagens {
-    /* position: absolute; */
-
-    background-color: transparent;
-    border: none;
-
-    width: 115px;
-    height: 17px;
+.navbar-links li:hover {
+    font-size: 1.05rem;
+    background-color: #8FF2FF;
+    transition: 450ms ease;
+    font: bolder;
 }
 
-.botao-menu-sair {
-    /* position: absolute; */
-    width: 27px;
-    height: 17px;
-    width: 46px;
-    height: 24px;
-
-    background: #8ff2ff;
+.botao-sair{
+    background: #8FF2FF;
     border-radius: 5px;
     border-width: 0px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
 
 body {

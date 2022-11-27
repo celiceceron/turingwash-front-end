@@ -1,89 +1,126 @@
-  html,
-  body,
-  main,
-  .rodape {
-      height: 100%;
-      width: 100%;
-      margin: 0 auto;
-  }
+* {
+    box-sizing: border-box;
+}
 
-  /* AJUSTEI TODOS OS TAMANHOS EM UM UNICO LUGAR E REMOVI OS DEMAIS */
+html{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  background-color: #EAF7FF;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
-  header {
-      background-color: #0f1726;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-top: 16px;
-      padding-bottom: 16px;
-      padding-right: 32px;
-      padding-left: 32px;
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BCF7FF;
+    color: #000;
+}
 
-      width: auto;
-      height: 53px;
-      margin: auto;
+.brand-title {
+    font-size: 1.8rem;
+    margin: 1rem;
+}
 
-      background: #BCF7FA;
-  }
+.navbar-links {
+    height: 100%;
+}
 
-  .logo-turing-wash {
-      /* position: absolute; */
-      width: 36px;
-      height: 36px;
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 
-      background-color: transparent;
-      border: none;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      padding-right: 0px;
-      padding-left: 0px;
+.navbar-links li {
+    list-style: none;
+}
 
-      /* padding: 0px; */
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+  
+    font-family: 'Inter';
+    font: normal;
+  
+    white-space: nowrap;
+    background-color: transparent;
+    border: none;
+    margin-right: .2rem;
+}
 
-      /* background: url(image.png); */
-  }
+.navbar-links li:hover {
+    font-size: 1.05rem;
+    background-color: #8FF2FF;
+    transition: 450ms ease;
+    font: bolder;
+}
 
-  header button {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 17px;
+.botao-sair{
+    background: #8FF2FF;
+    border-radius: 5px;
+    border-width: 0px;
+}
 
-      color: #000000;
-  }
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
 
-  .botao-menu-meuscarros {
-      /*position: absolute; */
-      white-space: nowrap;
-      background-color: transparent;
-      border: none;
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
 
-      width: 85px;
-      height: 17px;
-  }
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-  .botao-menu-minhaslavagens {
-      /* position: absolute; */
+    .toggle-button {
+        display: flex;
+    }
 
-      background-color: transparent;
-      border: none;
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
 
-      width: 115px;
-      height: 17px;
-  }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
 
-  .botao-menu-sair {
-      /* position: absolute; */
-      width: 46px;
-      height: 24px;
+    .navbar-links ul li {
+        text-align: center;
+    }
 
-      background: #8FF2FF;
-      border-radius: 5px;
-      border-width: 0px;
-  }
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
 
+    .navbar-links.active {
+        display: flex;
+    }
+}
 
   body {
       justify-content: center;

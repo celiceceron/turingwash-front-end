@@ -1,102 +1,125 @@
-html,
-body,
-main,
-.rodape {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
+* {
+    box-sizing: border-box;
 }
 
-/* AJUSTEI TODOS OS TAMANHOS EM UM UNICO LUGAR E REMOVI OS DEMAIS */
+html{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  background-color: #EAF7FF;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
-header {
-    background-color: #0f1726;
+.navbar {
     display: flex;
-    align-items: center;
+    position: relative;
     justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
-    width: auto;
-    height: 53px;
-
-    background: #bcf7ff;
+    align-items: center;
+    background-color: #BCF7FF;
+    color: #000;
 }
 
-.logo-turing-wash {
-    width: 100px;
-    height: 100px;
-    /*padding-right: 466px;
-    padding-top: 16px;
-    padding-left: 25px;
-    padding-inline-end: 50px;*/
-
-    /* background: url(image.png); */
+.brand-title {
+    font-size: 1.8rem;
+    margin: 1rem;
 }
 
+.navbar-links {
+    height: 100%;
+}
 
-.botao-menu-carros {
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+  
+    font-family: 'Inter';
+    font: normal;
+  
     white-space: nowrap;
     background-color: transparent;
     border: none;
-    font-weight: 700;
-    font-family: 'Inter';
-    font-style: bold;
-    font-size: 25px;
-    line-height: 17px;
-
-    vertical-align: top;
-    padding-left: 330px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-right: 350px;
-
-
-    color: #000000;
-
-    width: 85px;
-    height: 17px;
+    margin-right: .2rem;
 }
 
-.botao-menu-lavagens {
-    white-space: nowrap;
-    font-family: 'Inter';
-    font-style: bold;
-    background-color: transparent;
-    border: none;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 17px;
-    line-height: 100%;
-    text-align: left;
-    vertical-align: top;
-    padding-left: 250px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-right: 216px;
-
-    color: #000000;
-
-    width: 115px;
-    height: 17px;
+.navbar-links li:hover {
+    font-size: 1.05rem;
+    background-color: #8FF2FF;
+    transition: 450ms ease;
+    font: bolder;
 }
 
-.botao-menu-sair {
-    font-family: 'Inter';
-    font-style: bold;
-    font-size: 20px;
-    line-height: 30px;
-
-
-    text-align: left;
-    font-weight: 700;
-
+.botao-sair{
     background: #8FF2FF;
-    border: none;
-    padding-top: 30px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
 
 body {
