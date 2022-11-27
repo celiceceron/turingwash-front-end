@@ -7,6 +7,7 @@ html{
   font-style: normal;
   font-weight: 700;
   line-height: 17px;
+  background-color: #EAF7FF;
 }
 
 body {
@@ -123,29 +124,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* Background Styles Only */
-
-* {
-}
-
-html {
-   background-color: #EAF7FF;
-
-}
-
-
-
 h1 {
     /* Lavadores disponíveis próximos de você... */
     width: 331px;
@@ -193,6 +171,7 @@ h1 {
 
     color: #000000;
 }
+
 
 /* CAIXA DO PRIMEIRO USUÁRIO */
 section {
