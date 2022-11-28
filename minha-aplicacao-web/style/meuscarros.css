@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 
-html{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  line-height: 17px;
-  background-color: #EAF7FF;
+html {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    background-color: #EAF7FF;
 }
 
 body {
@@ -48,10 +48,10 @@ body {
     text-decoration: none;
     color: #000;
     padding: 1rem;
-  
+
     font-family: 'Inter';
     font: normal;
-  
+
     white-space: nowrap;
     background-color: transparent;
     border: none;
@@ -65,7 +65,7 @@ body {
     font: bolder;
 }
 
-.botao-sair{
+.botao-sair {
     background: #8FF2FF;
     border-radius: 5px;
     border-width: 0px;
@@ -203,24 +203,25 @@ h2 {
     color: #000000;
 }
 
+
 /* RODAPÉ */
+
+
 .rodape {
     /*position: absolute;*/
-
     background-color: #fff;
     display: flex;
     /*justify-content: center;*/
     padding: 32px;
     background: #BCF7FF;
+    
 }
-
 
 .logoRodape {
     /*position: absolute;*/
     width: 24.2px;
     height: 24.2px;
-
-    /* background: url(image.png);  */
+    /* background: url(image.png); */
 }
 
 .info-rodape {
@@ -229,24 +230,17 @@ h2 {
     width: 17px;
     height: 7px;
 
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 6px;
     line-height: 7px;
-
     color: #000000;
 }
 
 .instagram {
     /* @turingwash */
-
-    /*width: 380px;
-    height: 7px;
-    top: 549rem;
-    left: 1957rem;*/
-
+    /*width: 380px; height: 7px; top: 549rem; left: 1957rem;*/
 
     font-family: 'Inter';
     font-style: normal;
@@ -261,11 +255,8 @@ h2 {
 
 .direitos-reservados {
     /* 2022. TuringWash. Todos os direitos reservados */
-
     /*position: absolute;*/
-    /*width: 91px;
-    height: 5px;*/
-
+    /*width: 91px; height: 5px;*/
 
     font-family: 'Inter';
     font-style: normal;
