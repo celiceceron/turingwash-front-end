@@ -15,11 +15,11 @@
       padding: 0;
   }
 
-  .logoCabecalho{
-    width: 70px;
-    height: 70px;
-    margin-bottom: -1px;
-    margin-left: 15px;
+  .logoCabecalho {
+      width: 70px;
+      height: 70px;
+      margin-bottom: -1px;
+      margin-left: 15px;
   }
 
 
@@ -35,7 +35,7 @@
       align-items: center;
       background-color: #BCF7FF;
       color: #000;
-      
+
   }
 
   .brand-title {
@@ -45,19 +45,19 @@
 
   .navbar-links {
       height: 100%;
-      
+
   }
 
   .navbar-links ul {
       display: flex;
       margin: 0;
       padding: 0;
-      
+
   }
 
   .navbar-links li {
       list-style: none;
-      
+
   }
 
   .navbar-links li a {
@@ -81,7 +81,7 @@
       background-color: #8FF2FF;
       transition: 450ms ease;
       font: bolder;
-      
+
   }
 
   .botao-sair {
@@ -143,31 +143,30 @@
 
 
   h1 {
-    color: 000000;
-    padding-top: 30px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 400px;
- 
-}
+      color: 000000;
+      padding-top: 30px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 400px;
 
-.busca{
-    padding-left: 220px;
-    padding-top: 20px;
-    color: 000000;
-    text-align: left;
-    font-size: 18px;
-    font-weight: normal;
-}
+  }
 
-.ordenar{
-    padding-right: 220px;
-    padding-top: 20px;
-    color: 000000;
-    text-align: right;
-    font-size: 18px;
-    font-weight: normal;
-}
+  .busca {
+      padding-left: 220px;
+      color: 000000;
+      text-align: left;
+      font-size: 18px;
+      font-weight: normal;
+  }
+
+  .ordenar {
+      padding-right: 220px;
+      padding-top: 20px;
+      color: 000000;
+      text-align: right;
+      font-size: 18px;
+      font-weight: normal;
+  }
 
 
   body {
@@ -215,6 +214,7 @@
       font-weight: 700;
       font-size: 12px;
       line-height: 15px;
+      padding-top: 5px;
 
       text-align: center;
 
@@ -372,4 +372,3 @@
           display: flex;
       }
   }
-
