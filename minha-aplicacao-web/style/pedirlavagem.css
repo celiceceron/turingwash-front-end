@@ -22,15 +22,6 @@
     margin-left: 15px;
   }
 
-  h1 {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-
-      color: #000000;
-
-      text-align: center;
-  }
 
   a:hover {
       text-decoration: underline;
@@ -151,56 +142,33 @@
   }
 
 
-
   h1 {
-      /* Lavadores disponíveis próximos de você... */
-      width: 331px;
-      height: 19px;
+    color: 000000;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400px;
+ 
+}
 
-      font-family: 'Inter';
-      font: normal;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 19px;
+.busca{
+    padding-left: 220px;
+    padding-top: 20px;
+    color: 000000;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+}
 
-      color: #000000;
-  }
+.ordenar{
+    padding-right: 220px;
+    padding-top: 20px;
+    color: 000000;
+    text-align: right;
+    font-size: 18px;
+    font-weight: normal;
+}
 
-  .busca {
-      /* Lavar Nissan Kicks */
-
-      /* position: absolute; */
-      width: 107px;
-      height: 15px;
-
-      font-family: 'Inter';
-      font: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
-      /* identical to box height */
-
-      color: #000000;
-  }
-
-  .ordenar {
-      /* Ordenar por proximidade */
-
-      /* position: absolute; */
-      width: 142px;
-      height: 15px;
-
-      text-align: right;
-
-      font-family: 'Inter';
-      font: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
-      /* identical to box height */
-
-      color: #000000;
-  }
 
   body {
       font-family: "Inter";
@@ -320,7 +288,6 @@
   /* RODAPÉ */
   footer {
       background-color: #BCF7FF;
-      font-size: Regular;
       padding: 10px 0 10px;
       max-height: 400px;
   }
@@ -390,6 +357,7 @@
       font-weight: normal;
       text-align: right;
       margin-right: 35px;
+      font-size: 16px;
   }
 
   @media only screen and (max-width: 768px) {
@@ -405,10 +373,3 @@
       }
   }
 
-  /*
-
-  .brand-title {
-      font-size: 1.80rem;
-      margin: 1rem;
-  }
-  */
