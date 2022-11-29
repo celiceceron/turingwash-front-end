@@ -288,74 +288,88 @@ section {
 }
 
 /* RODAPÉ */
-.rodape {
-    /*position: absolute;*/
-
-    background-color: #fff;
+footer {
+    background-color: #BCF7FF;
+    font-size: Regular;
+    padding:10px 0 10px;
+    max-height: 400px;
+  }
+  
+  .logo-rodape {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -1px;
+    margin-left: 15px;
+  }
+  
+  .informacoes{
+    height: 100vh;
     display: flex;
-    /*justify-content: center;*/
-    padding: 32px;
-    background: #BCF7FF;
-}
-
-
-.logoRodape {
-    /*position: absolute;*/
-    width: 24.2px;
-    height: 24.2px;
-
-    /* background: url(image.png);  */
-}
-
-.info-rodape {
-    /* Sobre */
-    /*position: absolute; */
-    width: 17px;
-    height: 7px;
-
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 400;
-    font-size: 6px;
-    line-height: 7px;
-
-    color: #000000;
-}
-
-.instagram {
-    /* @turingwash */
-
-    /*width: 380px;
-    height: 7px;
-    top: 549rem;
-    left: 1957rem;*/
-
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6px;
-    line-height: 7px;
-    line-height: 100%;
-    vertical-align: top;
-    align-items: left;
-    fill: solid;
-    color: #000000;
-}
-
-.direitos-reservados {
-    /* 2022. TuringWash. Todos os direitos reservados */
-
-    /*position: absolute;*/
-    /*width: 91px;
-    height: 5px;*/
-
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 400;
-    font-size: 4px;
-    line-height: 5px;
-    color: #000000;
-}
+  }
+  
+  .info-rodape{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
+  }
+  
+  #info-rodape:hover >.info-rodape {
+    opacity: 0.3;
+  }
+  
+  #info-rodape:hover >.info-rodape:hover {
+    opacity: 1;
+  }
+  
+  .redes-sociais{
+    height: 100vh;
+    display: flex;
+  }
+  
+  .insta{
+    color: #000;
+    font-family: Inter;
+    font-style: Regular;
+    text-align:right;
+    margin-right: 35px;
+    display:block;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
+  }
+  
+  #insta:hover >.insta {
+    opacity: 0.3;
+  }
+  
+  #insta:hover >.insta:hover {
+    opacity: 1;
+  }
+  
+  .direitos-reservados{
+    color: #000;
+    font-family: Inter;
+    font-weight: normal;
+    text-align:right;
+    margin-right: 35px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .logo-rodape {
+    width: 100%;
+    display: flex;
+    }
+    
+    .info-rodape{
+      text-align:left;
+      margin-left: 50px;
+      display: flex;
+    }

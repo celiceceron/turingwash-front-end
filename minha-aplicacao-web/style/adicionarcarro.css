@@ -201,85 +201,88 @@ h2 {
 }
 
 /* RODAPÉ */
-/* APÓS COLOCAR O LAYOUT, USAR ESSE METODO PARA DEIXAR RESPONSIVO*/
-@media screen and (max-width: 786px) {
-      .rodape {
-          width: 100%;
-      }
+footer {
+    background-color: #BCF7FF;
+    font-size: Regular;
+    padding:10px 0 10px;
+    max-height: 400px;
   }
-
-  @media screen and (max-width: 600px) {
-    .rodape {
-        width: 100%;
+  
+  .logo-rodape {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -1px;
+    margin-left: 15px;
+  }
+  
+  .informacoes{
+    height: 100vh;
+    display: flex;
+  }
+  
+  .info-rodape{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
+  }
+  
+  #info-rodape:hover >.info-rodape {
+    opacity: 0.3;
+  }
+  
+  #info-rodape:hover >.info-rodape:hover {
+    opacity: 1;
+  }
+  
+  .redes-sociais{
+    height: 100vh;
+    display: flex;
+  }
+  
+  .insta{
+    color: #000;
+    font-family: Inter;
+    font-style: Regular;
+    text-align:right;
+    margin-right: 35px;
+    display:block;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
+  }
+  
+  #insta:hover >.insta {
+    opacity: 0.3;
+  }
+  
+  #insta:hover >.insta:hover {
+    opacity: 1;
+  }
+  
+  .direitos-reservados{
+    color: #000;
+    font-family: Inter;
+    font-weight: normal;
+    text-align:right;
+    margin-right: 35px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .logo-rodape {
+    width: 100%;
+    display: flex;
     }
-}
-
-
-.rodape {
-
-    background-color: #fff;
-    padding: 16px;
-    background: #BCF7FF;
-
-	
-}
-
-
-.logo {
-    width: 100px;
-    height: 100px;
-    padding-right: 466px;
-    padding-top: 16px;
-    padding-left: 25px;
-    padding-inline-end: 50px;
-    vertical-align: bottom;
-
-
-    /* background: url(image.png);  */
-}
-
-.info-rodape {
-    /* Sobre */
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    padding-left: 500px;
-
-
-    color: #000000;
-}
-
-.instagram {
-    /* @turingwash */
-
-    text-align: right;
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 7px;
-    vertical-align: top;
-    font-weight: 400;
-    color: #000000;
-}
-
-.logo-insta {
-    /* logoinsta */
-    position: absolute;
-    right: 50px;
-
-}
-
-.direitos-reservados {
-    /* 2022. TuringWash. Todos os direitos reservados */
-
-    text-align: right;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 5px;
-    color: #000000;
-}
+    
+    .info-rodape{
+      text-align:left;
+      margin-left: 50px;
+      display: flex;
+    }
