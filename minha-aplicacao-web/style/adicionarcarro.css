@@ -15,6 +15,13 @@ body {
     padding: 0;
 }
 
+.logoCabecalho{
+    width: 70px;
+    height: 70px;
+    margin-bottom: -1px;
+    margin-left: 15px;
+  }
+
 .navbar {
     display: flex;
     position: relative;
@@ -209,8 +216,8 @@ footer {
   }
   
   .logo-rodape {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin-bottom: -1px;
     margin-left: 15px;
   }
