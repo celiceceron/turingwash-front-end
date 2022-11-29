@@ -207,16 +207,15 @@ h2 {
 /* RODAPÉ */
 footer {
     background-color: #BCF7FF;
-    font-family: Inter;
-    font-size: regular;
-    padding:45px 0 20px;
-    height: 400px;
+    font-size: Regular;
+    padding:10px 0 10px;
+    max-height: 400px;
   }
   
   .logo-rodape {
     width: 60px;
     height: 60px;
-    margin-bottom: 55px;
+    margin-bottom: -1px;
     margin-left: 15px;
   }
   
@@ -228,7 +227,7 @@ footer {
   .info-rodape{
     color: #000;
     font-family: Inter;
-    font-size: Regular;
+    font-size: 16px;
     font-weight: normal;
     text-align: center;
     display:block;
@@ -249,16 +248,17 @@ footer {
     height: 100vh;
     display: flex;
   }
-    
+  
   .insta{
     color: #000;
     font-family: Inter;
-    font-size: Regular;
+    font-style: Regular;
     text-align:right;
     margin-right: 35px;
-    
     display:block;
     text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    transition: opacity 400ms ease;
     padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
     transition: opacity 400ms ease;
   }
@@ -274,18 +274,17 @@ footer {
   .direitos-reservados{
     color: #000;
     font-family: Inter;
-    font-style: Regular;
     font-weight: normal;
     text-align:right;
     margin-right: 35px;
   }
-      
+  
   @media only screen and (max-width: 768px) {
     .logo-rodape {
     width: 100%;
     display: flex;
     }
-  
+    
     .info-rodape{
       text-align:left;
       margin-left: 50px;
