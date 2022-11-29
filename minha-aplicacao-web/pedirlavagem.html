@@ -34,100 +34,76 @@
     </div>
   </nav>
 
+  <h1>Lavadores disponíveis próximos de você...</h1>
+
   <main>
     <div class="busca">Lavar <a>Nissan Kicks</a></div>
 
     <div class="ordenar">Ordenar por <a>proximidade</a></div>
 
     <!-- caixa com os usuários -->
-    <div class="classificacao-usuarios">
-      <section>
-        <!-- caixa do primeiro usuário -->
-        <div class="caixa-do-usuario">
-          <div class="informacao-usuario">
-            <img src="./img/profile.png" class="imagem-usuario" alt="Imagem Perfil" />
-            <h2 class="nome-do-usuario">João Pereira</h2>
-          </div>
+    <div class="wrapper">
 
-          <div class="caixa-de-informacoes">
-            <div class="valores-info">
-              <h3 class="nota-do-usuario">Nota 4.5 (998 avaliações)</h3>
-              <h3 class="valor">R$80</h3>
-              <a class="avaliacoes">Ver avaliações</a>
-              <button class="lavarMeuCarro" type="submit">
-                Lavar meu carro
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- /caixa do primeiro usuário -->
-      </section>
-
-      <section>
-        <!-- caixa do segundo usuário -->
-        <div class="caixa-do-usuario">
-          <div class="informacao-usuario">
-            <img src="./img/profile.png" class="imagem-usuario" alt="Imagem Perfil" />
-            <h2 class="nome-do-usuario">Joana Santos</h2>
-          </div>
-
-          <div class="caixa-de-informacoes">
-            <div class="valores-info">
-              <h3 class="nota-do-usuario">Nota 4.7 (489 avaliações)</h3>
-              <h3 class="valor">R$75</h3>
-              <a class="avaliacoes">Ver avaliações</a>
-              <button class="lavarMeuCarro" type="submit">
-                Lavar meu carro
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- /caixa do segundo usuário -->
-      </section>
-
-      <section>
-        <!-- caixa do terceiro usuário -->
-        <div class="caixa-do-usuario">
-          <div class="informacao-usuario">
-            <img src="./img/profile.png" class="imagem-usuario" alt="Imagem Perfil" />
-            <h2 class="nome-do-usuario">Matheus Oliveira</h2>
-          </div>
-
-          <div class="caixa-de-informacoes">
-            <div class="valores-info">
-              <h3 class="nota-do-usuario">Nota 4.3 (783 avaliações)</h3>
-              <h3 class="valor">R$90</h3>
-              <a class="avaliacoes">Ver avaliações</a>
-              <button class="lavarMeuCarro" type="submit">
-                Lavar meu carro
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- /caixa do terceiro usuário -->
-      </section>
-
-      <section>
-        <!-- caixa do quarto usuário -->
-        <div class="caixa-do-usuario">
-          <div class="informacao-usuario">
-            <img src="./img/profile.png" class="imagem-usuario" alt="Imagem Perfil" />
-            <h2 class="nome-do-usuario">Pedro Sampaio</h2>
-          </div>
-
-          <div class="caixa-de-informacoes">
-            <div class="valores-info">
-              <h3 class="nota-do-usuario">Nota 4.1 (801 avaliações)</h3>
-              <h3 class="valor">R$60</h3>
-              <a class="avaliacoes">Ver avaliações</a>
-              <button class="lavarMeuCarro" type="submit">
-                Lavar meu carro
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- /caixa do quarto usuário -->
-      </section>
+      <!--JOAO PEREIRA -->
+      <div class="card">
+        <div class="valor">R$ 80</div>
+    
+        <div class="topo-do-card">
+          <img src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/master/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/profile.png" alt="imagem de perfil">
+    
+          <h3 class="card-title" id="titulo">João Pereira</h3>
+        </div class="topo-do-card">
+    
+        <h3 class="card-nota" id="nota">Nota 4.5 (998 avaliações)</h3>
+        <h4 class="card-content">Ver avaliações</h4>
+        <button class="card-btn">Lavar meu carro</button>
+      </div>
+    
+      <!-- JOANA SANTOS -->
+      <div class="card">
+        <div class="valor">R$ 75</div>
+    
+        <div class="topo-do-card">
+          <img src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/master/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/profile.png" alt="imagem de perfil">
+    
+          <h3 class="card-title" id="titulo">Joana Santos</h3>
+        </div class="topo-do-card">
+    
+        <h3 class="card-nota" id="nota">Nota 4.7 (489 avaliações)</h3>
+        <h4 class="card-content">Ver avaliações</h4>
+        <button class="card-btn">Lavar meu carro</button>
+      </div>
+    
+      <!-- MATHEUS OLIVEIRA -->
+      <div class="card">
+        <div class="valor">R$ 90</div>
+    
+        <div class="topo-do-card">
+          <img src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/master/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/profile.png" alt="imagem de perfil">
+    
+          <h3 class="card-title" id="titulo">Matheus Oliveira</h3>
+        </div class="topo-do-card">
+    
+        <h3 class="card-nota" id="nota">Nota 4.3 (783 avaliações)</h3>
+        <h4 class="card-content">Ver avaliações</h4>
+        <button class="card-btn">Lavar meu carro</button>
+      </div>
+    
+      <!-- PEDRO SAMPAIO -->
+      <div class="card">
+        <div class="valor">R$ 60</div>
+    
+        <div class="topo-do-card">
+          <img src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/master/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/profile.png" alt="imagem de perfil">
+    
+          <h3 class="card-title" id="titulo">Pedro Sampaio</h3>
+        </div class="topo-do-card">
+    
+        <h3 class="card-nota" id="nota">Nota 4.1 (801 avaliações)</h3>
+        <h4 class="card-content">Ver avaliações</h4>
+        <button class="card-btn">Lavar meu carro</button>
+      </div>
+    
     </div>
     <!-- /caixa com os usuários -->
   </main>

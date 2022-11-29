@@ -1,375 +1,393 @@
   * {
-    box-sizing: border-box;
-}
-
-html{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  line-height: 17px;
-  background-color: #EAF7FF;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #BCF7FF;
-    color: #000;
-}
-
-.brand-title {
-    font-size: 1.8rem;
-    margin: 1rem;
-}
-
-.navbar-links {
-    height: 100%;
-}
-
-.navbar-links ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-links li {
-    list-style: none;
-}
-
-.navbar-links li a {
-    display: block;
-    text-decoration: none;
-    color: #000;
-    padding: 1rem;
-  
-    font-family: 'Inter';
-    font: normal;
-  
-    white-space: nowrap;
-    background-color: transparent;
-    border: none;
-    margin-right: .2rem;
-}
-
-.navbar-links li:hover {
-    font-size: 1.05rem;
-    background-color: #8FF2FF;
-    transition: 450ms ease;
-    font: bolder;
-}
-
-.botao-sair{
-    background: #8FF2FF;
-    border-radius: 5px;
-    border-width: 0px;
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: #000;
-    border-radius: 10px;
-}
-
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-}
-
-
-
-h1 {
-    /* Lavadores disponíveis próximos de você... */
-    width: 331px;
-    height: 19px;
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #000000;
-}
-
-.busca {
-    /* Lavar Nissan Kicks */
-
-    /* position: absolute; */
-    width: 107px;
-    height: 15px;
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    color: #000000;
-}
-
-.ordenar {
-    /* Ordenar por proximidade */
-
-    /* position: absolute; */
-    width: 142px;
-    height: 15px;
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    color: #000000;
-}
-
-
-/* CAIXA DO PRIMEIRO USUÁRIO */
-section {
-    /* Fundo da caixa dos usuários */
-
-    /* position: absolute; */
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-
-.classificacao-usuarios img {
-    position: absolute;
-    width: 55px;
-    height: 55px;
-
-    /* background: url(image.png); */
-}
-
-.nome-do-usuario {
-    /* João Pereira */
-
-    /* position: absolute; */
-    width: 73px;
-    height: 15px;
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    color: #000000;
-}
-
-.nota-do-usuario {
-    /* Nota 4.5 (998 avaliações) */
-
-    /* position: absolute; */
-    width: 127px;
-    height: 12px;
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
-
-    color: #000000;
-}
-
-.valor {
-    /* R$ 80 */
-
-    /* position: absolute; */
-    width: 35px;
-    height: 15px;
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    color: #000000;
-
-    /* position: absolute; */
-    width: 59px;
-    height: 27px;
-
-    background: #DCFCFE;
-    border-radius: 0px 10px 0px 0px;
-}
-
-.avaliacoes {
-    /* Ver avaliações */
-
-    /* position: absolute; */
-    width: 82px;
-    height: 15px;
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    color: #000000;
-}
-
-.lavarMeuCarro {
-    /* Lavar meu carro */
-
-    /* position: absolute; */
-    width: 92px;
-    height: 15px;
-
-    font-family: 'Inter';
-    font: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    color: #000000;
-
-    width: 103px;
-    height: 25px;
-
-    background: #8FF2FF;
-    border-radius: 5px;
-}
-
-/* RODAPÉ */
-footer {
-    background-color: #BCF7FF;
-    font-size: Regular;
-    padding:10px 0 10px;
-    max-height: 400px;
+      box-sizing: border-box;
   }
-  
-  .logo-rodape {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -1px;
-    margin-left: 15px;
+
+  html {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      line-height: 17px;
+      background-color: #EAF7FF;
   }
-  
-  .informacoes{
-    height: 100vh;
-    display: flex;
+
+  body {
+      margin: 0;
+      padding: 0;
   }
-  
-  .info-rodape{
-    color: #000;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: normal;
-    text-align: center;
-    display:block;
-    text-decoration: none;
-    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-    transition: opacity 400ms ease;
+
+  h1 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+
+      color: #000000;
+
+      text-align: center;
   }
-  
-  #info-rodape:hover >.info-rodape {
-    opacity: 0.3;
+
+  a:hover {
+      text-decoration: underline;
+      cursor: pointer;
   }
-  
-  #info-rodape:hover >.info-rodape:hover {
-    opacity: 1;
-  }
-  
-  .redes-sociais{
-    height: 100vh;
-    display: flex;
-  }
-  
-  .insta{
-    color: #000;
-    font-family: Inter;
-    font-style: Regular;
-    text-align:right;
-    margin-right: 35px;
-    display:block;
-    text-decoration: none;
-    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-    transition: opacity 400ms ease;
-    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-    transition: opacity 400ms ease;
-  }
-  
-  #insta:hover >.insta {
-    opacity: 0.3;
-  }
-  
-  #insta:hover >.insta:hover {
-    opacity: 1;
-  }
-  
-  .direitos-reservados{
-    color: #000;
-    font-family: Inter;
-    font-weight: normal;
-    text-align:right;
-    margin-right: 35px;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .logo-rodape {
-    width: 100%;
-    display: flex;
-    }
-    
-    .info-rodape{
-      text-align:left;
-      margin-left: 50px;
+
+  .navbar {
       display: flex;
-    }
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #BCF7FF;
+      color: #000;
+  }
+
+  .brand-title {
+      font-size: 1.8rem;
+      margin: 1rem;
+  }
+
+  .navbar-links {
+      height: 100%;
+  }
+
+  .navbar-links ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+
+  .navbar-links li {
+      list-style: none;
+  }
+
+  .navbar-links li a {
+      display: block;
+      text-decoration: none;
+      color: #000;
+      padding: 1rem;
+
+      font-family: 'Inter';
+      font: normal;
+
+      white-space: nowrap;
+      background-color: transparent;
+      border: none;
+      margin-right: .2rem;
+  }
+
+  .navbar-links li:hover {
+      font-size: 1.05rem;
+      background-color: #8FF2FF;
+      transition: 450ms ease;
+      font: bolder;
+  }
+
+  .botao-sair {
+      background: #8FF2FF;
+      border-radius: 5px;
+      border-width: 0px;
+  }
+
+  .toggle-button {
+      position: absolute;
+      top: .75rem;
+      right: 1rem;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 21px;
+  }
+
+  .toggle-button .bar {
+      height: 3px;
+      width: 100%;
+      background-color: #000;
+      border-radius: 10px;
+  }
+
+  @media (max-width: 800px) {
+      .navbar {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+
+      .toggle-button {
+          display: flex;
+      }
+
+      .navbar-links {
+          display: none;
+          width: 100%;
+      }
+
+      .navbar-links ul {
+          width: 100%;
+          flex-direction: column;
+      }
+
+      .navbar-links ul li {
+          text-align: center;
+      }
+
+      .navbar-links ul li a {
+          padding: .5rem 1rem;
+      }
+
+      .navbar-links.active {
+          display: flex;
+      }
+  }
+
+
+
+  h1 {
+      /* Lavadores disponíveis próximos de você... */
+      width: 331px;
+      height: 19px;
+
+      font-family: 'Inter';
+      font: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #000000;
+  }
+
+  .busca {
+      /* Lavar Nissan Kicks */
+
+      /* position: absolute; */
+      width: 107px;
+      height: 15px;
+
+      font-family: 'Inter';
+      font: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height */
+
+      color: #000000;
+  }
+
+  .ordenar {
+      /* Ordenar por proximidade */
+
+      /* position: absolute; */
+      width: 142px;
+      height: 15px;
+
+      text-align: right;
+
+      font-family: 'Inter';
+      font: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height */
+
+      color: #000000;
+  }
+
+  body {
+      font-family: "Inter";
+      background: #eaf7ff;
+  }
+
+  .wrapper {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  img {
+      width: 50px;
+      height: 50px;
+  }
+
+  .topo-do-card {
+      display: flex;
+      align-items: center;
+      padding-right: 300px;
+  }
+
+  .card {
+      position: relative;
+      width: 446px;
+      min-width: 300px;
+      min-height: 80px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      color: #000;
+      margin: 20px;
+      box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px,
+          rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+  }
+
+  .valor {
+      width: 59px;
+      height: 27px;
+      background: #dcfcfe;
+      border-radius: 0px 10px 0px 0px;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+
+      text-align: center;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+
+  .card-title {
+      white-space: nowrap;
+      margin-bottom: 5px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 15px;
+      padding-left: 20px;
+  }
+
+  .card-nota {
+      white-space: nowrap;
+      font-weight: 700;
+      padding-top: 10px;
+      font-size: 14px;
+      line-height: 15px;
+      text-align: center;
+  }
+
+  .card-content {
+      font-size: 12px;
+      width: 103px;
+      height: 25px;
+      white-space: nowrap;
+      cursor: pointer;
+      position: absolute;
+      bottom: 120;
+      float: right;
+  }
+
+  .card-content:hover {
+      text-decoration: underline;
+  }
+
+  .card-btn {
+      all: unset;
+      display: block;
+      margin-left: auto;
+      background: #8ff2ff;
+      border: 2px solid #fff;
+      padding: 10px 15px;
+      width: 103px;
+      height: 25px;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: all 0.5s;
+      cursor: pointer;
+      font-weight: 800;
+      font-size: 12px;
+      line-height: 15px;
+  }
+
+  .card-btn:hover {
+      color: #000;
+      background: #4294ff;
+  }
+
+  .card-btn:active {
+      color: #000;
+      background: #dcfcfe;
+  }
+
+
+  /* RODAPÉ */
+  footer {
+      background-color: #BCF7FF;
+      font-size: Regular;
+      padding: 10px 0 10px;
+      max-height: 400px;
+  }
+
+  .logo-rodape {
+      width: 60px;
+      height: 60px;
+      margin-bottom: -1px;
+      margin-left: 15px;
+  }
+
+  .informacoes {
+      height: 100vh;
+      display: flex;
+  }
+
+  .info-rodape {
+      color: #000;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+      transition: opacity 400ms ease;
+  }
+
+  #info-rodape:hover>.info-rodape {
+      opacity: 0.3;
+  }
+
+  #info-rodape:hover>.info-rodape:hover {
+      opacity: 1;
+  }
+
+  .redes-sociais {
+      height: 100vh;
+      display: flex;
+  }
+
+  .insta {
+      color: #000;
+      font-family: Inter;
+      font-style: Regular;
+      text-align: right;
+      margin-right: 35px;
+      display: block;
+      text-decoration: none;
+      padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+      transition: opacity 400ms ease;
+      padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+      transition: opacity 400ms ease;
+  }
+
+  #insta:hover>.insta {
+      opacity: 0.3;
+  }
+
+  #insta:hover>.insta:hover {
+      opacity: 1;
+  }
+
+  .direitos-reservados {
+      color: #000;
+      font-family: Inter;
+      font-weight: normal;
+      text-align: right;
+      margin-right: 35px;
+  }
+
+  @media only screen and (max-width: 768px) {
+      .logo-rodape {
+          width: 100%;
+          display: flex;
+      }
+
+      .info-rodape {
+          text-align: left;
+          margin-left: 50px;
+          display: flex;
+      }
+  }
