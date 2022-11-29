@@ -15,6 +15,13 @@
       padding: 0;
   }
 
+  .logoCabecalho{
+    width: 70px;
+    height: 70px;
+    margin-bottom: -1px;
+    margin-left: 15px;
+  }
+
   h1 {
       font-family: 'Inter';
       font-style: normal;
@@ -37,25 +44,29 @@
       align-items: center;
       background-color: #BCF7FF;
       color: #000;
+      
   }
 
   .brand-title {
-      font-size: 1.8rem;
+      font-size: 1.80rem;
       margin: 1rem;
   }
 
   .navbar-links {
       height: 100%;
+      
   }
 
   .navbar-links ul {
       display: flex;
       margin: 0;
       padding: 0;
+      
   }
 
   .navbar-links li {
       list-style: none;
+      
   }
 
   .navbar-links li a {
@@ -71,6 +82,7 @@
       background-color: transparent;
       border: none;
       margin-right: .2rem;
+
   }
 
   .navbar-links li:hover {
@@ -78,6 +90,7 @@
       background-color: #8FF2FF;
       transition: 450ms ease;
       font: bolder;
+      
   }
 
   .botao-sair {
@@ -313,8 +326,8 @@
   }
 
   .logo-rodape {
-      width: 60px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
       margin-bottom: -1px;
       margin-left: 15px;
   }
@@ -391,3 +404,11 @@
           display: flex;
       }
   }
+
+  /*
+
+  .brand-title {
+      font-size: 1.80rem;
+      margin: 1rem;
+  }
+  */
