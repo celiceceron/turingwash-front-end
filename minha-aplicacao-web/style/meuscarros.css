@@ -15,12 +15,12 @@ body {
     padding: 0;
 }
 
-.logoCabecalho{
+.logoCabecalho {
     width: 70px;
     height: 70px;
     margin-bottom: -1px;
     margin-left: 15px;
-  }
+}
 
 .navbar {
     display: flex;
@@ -137,13 +137,15 @@ body {
 h1 {
     /*  Meus carros */
     /* position: absolute; */
-    width: 331px;
-    height: 19px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    text-align: center;
 
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 25px;
     line-height: 19px;
 
     color: #000000;
@@ -169,131 +171,218 @@ h2 {
     color: #000000;
 }
 
-.excluir-carro {
-    /* position: absolute; */
-    width: 103px;
-    height: 25px;
-
-    background: #ff9b9b;
-    border-radius: 5px;
-
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-
-    text-align: center;
-
-    color: #000000;
+body {
+    font-family: "VT323", monospace;
+    background: #eaf7ff;
 }
 
-.botao-adicionar-carro {
-    /* position: absolute; */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.topo-do-card {
+    display: flex;
+    align-items: center;
+    padding-right: 300px;
+}
+
+.card {
+    position: relative;
+    width: 446px;
+    min-width: 300px;
+    min-height: 80px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #000;
+    margin: 20px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px,
+        rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+
+#nota {
+    padding-top: 0px;
+    top: 50%;
+    left: 50%;
+}
+
+.card-title {
+    white-space: nowrap;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    padding-left: 10px;
+}
+
+.card-content {
+    font-size: 12px;
     width: 103px;
     height: 25px;
+    white-space: nowrap;
+    cursor: pointer;
+    position: absolute;
+    bottom: 120;
+    float: right;
+}
+
+.card-content:hover {
+    text-decoration: underline;
+}
+
+.card-btn {
+    all: unset;
+    display: block;
+    margin-left: auto;
+    background: #ff9b9b;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    width: 103px;
+    height: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.card-btn:hover {
+    color: #000;
+    background: #e81c0e;
+}
+
+.card-btn:active {
+    color: #000;
+    background: #ff9b9b;
+}
+
+.botao-adicionar {
+    all: unset;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
 
     background: #8ff2ff;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+
+    margin-top: 2%;
+    margin-bottom: 10%;
+    
+    width: 103px;
+    height: 25px;
     border-radius: 5px;
-
-    /* position: absolute; */
-
-    font-family: "Inter";
-    font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 12.2px;
     line-height: 15px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #000000;
 }
+
+.botao-adicionar:hover {
+    color: #000;
+    background: #4294ff;
+}
+
+.botao-adicionar:active {
+    color: #000;
+    background: #dcfcfe;
+}
+
 
 
 /* RODAPÉ */
 footer {
     background-color: #BCF7FF;
     font-size: regular;
-    padding:10px 0 10px;
+    padding: 10px 0 10px;
     max-height: 400px;
-  }
-  
-  .logo-rodape {
+}
+
+.logo-rodape {
     width: 70px;
     height: 70px;
     margin-bottom: -1px;
     margin-left: 15px;
-  }
-  
-  .informacoes{
+}
+
+.informacoes {
     height: 100vh;
     display: flex;
-  }
-  
-  .info-rodape{
+}
+
+.info-rodape {
     color: #000;
     font-family: Inter;
     font-size: 16px;
     font-weight: normal;
     text-align: center;
-    display:block;
+    display: block;
     text-decoration: none;
     padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
     transition: opacity 400ms ease;
-  }
-  
-  #info-rodape:hover >.info-rodape {
+}
+
+#info-rodape:hover>.info-rodape {
     opacity: 0.3;
-  }
-  
-  #info-rodape:hover >.info-rodape:hover {
+}
+
+#info-rodape:hover>.info-rodape:hover {
     opacity: 1;
-  }
-  
-  .redes-sociais{
+}
+
+.redes-sociais {
     height: 100vh;
     display: flex;
-  }
-  
-  .insta{
+}
+
+.insta {
     color: #000;
     font-family: Inter;
     font-style: Regular;
-    text-align:right;
+    text-align: right;
     margin-right: 35px;
-    display:block;
+    display: block;
     text-decoration: none;
     padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
     transition: opacity 400ms ease;
     padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
     transition: opacity 400ms ease;
-  }
-  
-  #insta:hover >.insta {
+}
+
+#insta:hover>.insta {
     opacity: 0.3;
-  }
-  
-  #insta:hover >.insta:hover {
+}
+
+#insta:hover>.insta:hover {
     opacity: 1;
-  }
-  
-  .direitos-reservados{
+}
+
+.direitos-reservados {
     color: #000;
     font-family: Inter;
     font-weight: normal;
-    text-align:right;
+    text-align: right;
     margin-right: 35px;
-  }
-  
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
     .logo-rodape {
-    width: 100%;
-    display: flex;
+        width: 100%;
+        display: flex;
     }
-    
-    .info-rodape{
-      text-align:left;
-      margin-left: 50px;
-      display: flex;
+
+    .info-rodape {
+        text-align: left;
+        margin-left: 50px;
+        display: flex;
     }
+}
