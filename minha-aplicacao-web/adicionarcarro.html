@@ -2,68 +2,88 @@
 
 <html lang="pt-br">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TuringWash</title>
-  
-    <!-- tag para adicionar os estilos -->
-    <link rel="stylesheet" href="./style/adicionarcarro.css" />
-    <!-- /tag para adicionar os estilos -->
-  </head>
-  <!-- Começo do body -->
-  <body>
-    <nav class="navbar">
-      <div class="brand-title">
-         <img src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/465948d7899c416b18556a24b547c99342a43c28/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/turingwash-logo.svg"
-      class="logoCabecalho"
-      alt="Logo TuringWash"
-    />
-      </div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="#">Meus carros</a></li>
-          <li><a href="#">Minhas lavagens</a></li>
-          <li><a href="#" class="botao-sair">Sair</a></li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TuringWash</title>
 
+  <!-- tag para adicionar os estilos -->
+  <link rel="stylesheet" href="./style/adicionarcarro.css" />
+  <!-- /tag para adicionar os estilos -->
+</head>
+<!-- Começo do body -->
 
-    
+<body>
+  <nav class="navbar">
+    <div class="brand-title">
+      <img
+        src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/465948d7899c416b18556a24b547c99342a43c28/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/turingwash-logo.svg"
+        class="logoCabecalho" alt="Logo TuringWash" />
+    </div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">Meus carros</a></li>
+        <li><a href="#">Minhas lavagens</a></li>
+        <li><a href="#" class="botao-sair">Sair</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <main>
-    <!-- caixa para selecionar as informaçōes do carro -->
-    <section id="adicionar-carro">
-      <div class="card1">
-        <h2 class="Fabricante">Fabricante</h2>
-        <select id="Busca por Fabricante" value="" placeholder="Busca por Fabricante" class="selecao"></select>
-        <h2 class="Modelo">Modelo</h2>
-        <select id="Busca por Modelo" value="" placeholder="Busca por Modelo" class="selecao"></select>
-        <h2 class="Ano">Ano</h2>
-        <select id="Busca Ano" value="" placeholder="Buscar Ano" class="selecao-ano"></select>
+    <div class="titulo">
+      <h1>Adicionar carro</h1>
+    </div>
 
+    <div class="wrapper">
 
+      <!--Card-->
+      <div class="card">
+
+        <div class="card1">
+          <div class="primeiro-item-do-card">
+            <h3 class="fabricante">Fabricante</h3>
+
+            <select id="busca-por-fabricante" value="" placeholder="busca-por-fabricante" class="selecao">
+            </select>
+          </div>
+
+          <div class="segundo-item-do-card">
+            <h3 class="modelo">Modelo</h3>
+            <select id="busca-por-modelo" value="" placeholder="busca-por-modelo" class="selecao">
+            </select>
+          </div>
+
+          <div class="terceiro-item-do-card">
+            <h3 class="ano">Ano</h3>
+            <select id="busca-ano" value="" placeholder="busca-por-ano" class="selecao-ano">
+            </select>
+          </div>
+
+        </div>
       </div>
-      </select>
 
+
+    </div>
   </main>
 
-  <button type="" class="botao-adicionar-carro">Adicionar carro</button>
-
+  <button class="botao-adicionar-carro">Adicionar carro</button>
 
   <footer>
+
     <footer class="footer">
       <nav class="row">
         <div class="logo-rodape">
-          <img src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/465948d7899c416b18556a24b547c99342a43c28/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/turingwash-logo.svg" class="logo-rodape" alt="Logo Rodape" />
+          <img
+            src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/465948d7899c416b18556a24b547c99342a43c28/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/turingwash-logo.svg"
+            class="logo-rodape" alt="Logo Rodape" />
         </div>
-    
+
         <div id="informacoes">
           <div id="info-rodape">
             <a href="/" class="info-rodape">Sobre</a>
@@ -72,27 +92,24 @@
             <a href="/" class="info-rodape">Termos de uso</a>
           </div>
         </div>
-    
+
         <div id="redes-sociais">
           <div id="insta">
             <a href="/" class="insta">@turingwash</a>
           </div>
         </div>
-    
+
         <div class="direitos">
           <div class="direitos-reservados">2022. TuringWash. Todos os direitos reservados
           </div>
-    
+
         </div>
       </nav>
-    
+    </footer>
 
-  </footer>
-
-  <!-- tag para adicionar o javascript -->
-  <script src="./script/scripts.js"></script>
-  <!-- /tag para adicionar o javascript  -->
+    <!-- tag para adicionar o javascript -->
+    <script src="./script/scripts.js"></script>
+    <!-- /tag para adicionar o javascript  -->
 
 </body>
-
 </html>

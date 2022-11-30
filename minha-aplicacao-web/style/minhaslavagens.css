@@ -99,11 +99,12 @@ body {
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .toggle-button {
         display: flex;
+        margin-top: 30px;
     }
 
     .navbar-links {
@@ -350,3 +351,4 @@ body {
       margin-left: 50px;
       display: flex;
     }
+}
