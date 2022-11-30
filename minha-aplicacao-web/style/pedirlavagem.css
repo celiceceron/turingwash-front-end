@@ -115,32 +115,41 @@
       }
 
       .toggle-button {
-        display: flex;
-        margin-top: 30px;
+          display: flex;
+          margin-top: 30px;
       }
 
       .navbar-links {
-        display: none;
-        width: 100%;
+          display: none;
+          width: 100%;
       }
-    
+
       .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
+          width: 100%;
+          flex-direction: column;
       }
-    
+
       .navbar-links ul li {
-        text-align: center;
+          text-align: center;
       }
-    
+
       .navbar-links ul li a {
-        padding: .5rem 1rem;
+          padding: .5rem 1rem;
       }
-    
+
       .navbar-links.active {
-        display: flex;
+          display: flex;
       }
-    }
+
+      .logoCabecalho {
+          width: 100%;
+          margin: auto;
+          text-align: center;
+          padding: none;
+          width: 80px;
+          height: 80px;
+      }
+  }
 
 
   h1 {
@@ -152,29 +161,29 @@
   }
 
   @media (max-width: 800px) {
-    h1 {
-        font-size: 18px;
-        text-align:  center;
-        font-weight: 100px;
-    }
-}
+      h1 {
+          font-size: 18px;
+          text-align: center;
+          font-weight: 100px;
+      }
+  }
 
   .buscar {
       color: 000000;
       text-align: left;
       font-size: 18px;
       font-weight: normal;
-      padding-left: 260px; 
+      padding-left: 260px;
   }
 
   @media (max-width: 800px) {
-    .buscar {
-        font-size: 15px;
-        text-align:  center;
-        font-weight: 100px;
-        padding-right: 10px;
-    }
-}
+      .buscar {
+          font-size: 15px;
+          text-align: center;
+          font-weight: 100px;
+          padding-right: 10px;
+      }
+  }
 
   .ordenar {
       padding-right: 260px;
@@ -185,14 +194,14 @@
   }
 
   @media (max-width: 800px) {
-    .ordenar {
-        font-size: 15px;
-        text-align:  center;
-        font-weight: 100px;
-        white-space: nowrap;
-        padding-left: 10px;
-    }
-}
+      .ordenar {
+          font-size: 15px;
+          text-align: center;
+          font-weight: 100px;
+          white-space: nowrap;
+          padding-left: 10px;
+      }
+  }
 
 
   body {
@@ -389,25 +398,29 @@
   }
 
   @media only screen and (max-width: 768px) {
-    .logo-rodape {
-        width: 50%;
-        display: flex;
-    }
+      .logo-rodape {
+          width: 100%;
+          margin: auto;
+          text-align: center;
+          padding: none;
+          width: 80px;
+          height: 80px;
+      }
 
-    .info-rodape {
-        text-align: left;
-        margin-left: 50px;
-        display: flex;
-        font-size: 15px;
-    }
+      .info-rodape {
+          text-align: left;
+          margin-left: 50px;
+          display: flex;
+          font-size: 15px;
+      }
 
-    .insta {
-        text-align: right;
-        font-size: 10px;
-    }
+      .insta {
+          text-align: right;
+          font-size: 10px;
+      }
 
-.direitos-reservados{
-    text-align: right;
-    font-size: 10px;
-    }
-}
+      .direitos-reservados {
+          text-align: right;
+          font-size: 10px;
+      }
+  }

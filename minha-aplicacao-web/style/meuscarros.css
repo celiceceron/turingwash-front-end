@@ -127,6 +127,15 @@ body {
     .navbar-links.active {
         display: flex;
     }
+
+    .logoCabecalho {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: none;
+        width: 80px;
+        height: 80px;
+    }
 }
 
 
@@ -202,6 +211,7 @@ body {
         font-weight: 100;
     }
 }
+
 .card-title {
     white-space: nowrap;
     margin-bottom: 5px;
@@ -364,8 +374,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .logo-rodape {
-        width: 50%;
-        display: flex;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: none;
+        width: 80px;
+        height: 80px;
     }
 
     .info-rodape {
