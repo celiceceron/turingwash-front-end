@@ -144,29 +144,32 @@
 
   h1 {
       color: 000000;
-      padding-top: 30px;
+      padding: 30px;
       text-align: center;
       font-size: 25px;
       font-weight: 400px;
 
   }
 
-  .busca {
-      padding-left: 220px;
+  .buscar {
+     
+    
       color: 000000;
       text-align: left;
       font-size: 18px;
       font-weight: normal;
+      padding-left: 260px;
+   
   }
 
   .ordenar {
-      padding-right: 220px;
-      padding-top: 20px;
+      padding-right: 260px;
       color: 000000;
       text-align: right;
       font-size: 18px;
       font-weight: normal;
   }
+
 
 
   body {
@@ -372,3 +375,16 @@
           display: flex;
       }
   }
+
+  @media (max-width: 800px) {
+    .buscar {
+        text-align: center;
+    }
+
+    @media (max-width: 800px) {
+        .ordenar {
+            text-align: center;
+    
+        }
+    }
+}
