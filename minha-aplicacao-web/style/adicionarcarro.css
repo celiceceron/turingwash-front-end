@@ -137,14 +137,20 @@ h1 {
   padding-bottom: 3%;
   padding: 30px;
   text-align: center;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400px;
   font-size: 25px;
   line-height: 19px;
-
   color: #000000;
+}
+
+@media (max-width: 800px) {
+  h1 {
+      font-size: 18px;
+      text-align:  center;
+      font-weight: 100px;
+  }
 }
 
 .card1 {
@@ -182,7 +188,15 @@ body {
   align-items: center;
   font-family: "Inter";
   line-height:5px;
+}
 
+@media (max-width: 800px) {
+  .ano,
+  .modelo,
+  .fabricante {
+      font-size: 16px;
+      font-weight: 100px;
+  }
 }
 
 .selecao-ano{
@@ -191,16 +205,18 @@ body {
   padding: 4px;
 }
  
+
 .selecao {
   width: 300px;
   border-radius: 100px;
   padding: 6px;
 }
 
-.card1 {
+.card {
   position: relative;
   width: 446px;
   min-width: 300px;
+  font-weight: 700;
   min-height: 80px;
   background: #fff;
   padding: 30px;
@@ -210,6 +226,7 @@ body {
   margin: 20px;
   box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px,
       rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+
 }
 
 .botao-adicionar-carro {
@@ -329,26 +346,24 @@ font-family: "Inter";
 
   @media only screen and (max-width: 768px) {
     .logo-rodape {
-      width: 100%;
-      display: flex;
+        width: 50%;
+        display: flex;
     }
 
     .info-rodape {
-      text-align: left;
-      margin-left: 50px;
-      display: flex;
-    }
-  }
-
-  @media (max-width: 800px) {
-    .buscar {
-      text-align: center;
+        text-align: left;
+        margin-left: 50px;
+        display: flex;
+        font-size: 15px;
     }
 
-    @media (max-width: 800px) {
-      .ordenar {
-        text-align: center;
-
-      }
+    .insta {
+        text-align: right;
+        font-size: 10px;
     }
-  }
+
+.direitos-reservados{
+    text-align: right;
+    font-size: 10px;
+    }
+}

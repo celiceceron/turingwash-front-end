@@ -99,7 +99,6 @@ body {
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
-        align-items: center;
     }
 
     .toggle-button {
@@ -136,14 +135,20 @@ h1 {
     padding-bottom: 3%;
     padding: 30px;
     text-align: center;
-
     font-family: "Inter";
     font-style: normal;
     font-weight: 400px;
     font-size: 25px;
     line-height: 19px;
-
     color: #000000;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 100px;
+    }
 }
 
 .card1,
@@ -151,7 +156,6 @@ h1 {
     background: #ffffff;
     border-radius: 10px;
 }
-
 
 body {
     font-family: "VT323", monospace;
@@ -192,6 +196,12 @@ body {
     left: 50%;
 }
 
+@media (max-width: 800px) {
+    #ano {
+        font-size: 15px;
+        font-weight: 100;
+    }
+}
 .card-title {
     white-space: nowrap;
     margin-bottom: 5px;
@@ -199,6 +209,13 @@ body {
     font-size: 20px;
     line-height: 15px;
     padding-left: 10px;
+}
+
+@media (max-width: 800px) {
+    .card-title {
+        font-size: 18px;
+        font-weight: 300px;
+    }
 }
 
 
@@ -246,7 +263,7 @@ body {
 
     margin-top: 2%;
     margin-bottom: 10%;
-    
+
     width: 103px;
     height: 25px;
     border-radius: 5px;
@@ -347,7 +364,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .logo-rodape {
-        width: 100%;
+        width: 50%;
         display: flex;
     }
 
@@ -355,5 +372,16 @@ footer {
         text-align: left;
         margin-left: 50px;
         display: flex;
+        font-size: 15px;
+    }
+
+    .insta {
+        text-align: right;
+        font-size: 10px;
+    }
+
+    .direitos-reservados {
+        text-align: right;
+        font-size: 10px;
     }
 }

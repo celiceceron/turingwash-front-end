@@ -342,13 +342,24 @@ body {
   
   @media only screen and (max-width: 768px) {
     .logo-rodape {
-    width: 100%;
-    display: flex;
+        width: 50%;
+        display: flex;
     }
-    
-    .info-rodape{
-      text-align:left;
-      margin-left: 50px;
-      display: flex;
+
+    .info-rodape {
+        text-align: left;
+        margin-left: 50px;
+        display: flex;
+        font-size: 15px;
+    }
+
+    .insta {
+        text-align: right;
+        font-size: 10px;
+    }
+
+.direitos-reservados{
+    text-align: right;
+    font-size: 10px;
     }
 }
