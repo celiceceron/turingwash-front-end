@@ -134,6 +134,7 @@ body {
     background: #eaf7ff;
 }
 
+ /* COMEÇA */
 h1 {
     width: 331px;
     height: 19px;
@@ -159,7 +160,6 @@ h1 {
 }
 
 h2 {
-    /* position: absolute; */
     width: 76px;
     height: 30px;
 
@@ -207,6 +207,7 @@ h2 {
     /* padding: 8px; */
 }
 
+/* TERMINA */
 /* RODAPÉ */
 footer {
     background-color: #BCF7FF;

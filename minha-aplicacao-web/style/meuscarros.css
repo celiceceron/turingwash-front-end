@@ -137,16 +137,19 @@ body {
 h1 {
     padding-top: 3%;
     padding-bottom: 3%;
-
+    padding: 30px;
     text-align: center;
 
     font-family: "Inter";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400px;
     font-size: 25px;
     line-height: 19px;
 
     color: #000000;
+
+    
+
 }
 
 .card1,
