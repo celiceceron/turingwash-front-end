@@ -148,7 +148,6 @@ h1 {
 
     color: #000000;
 
-    
 
 }
 
@@ -237,7 +236,6 @@ body {
     display: block;
     margin-left: auto;
     background: #ff9b9b;
-    border: 2px solid #fff;
     white-space: nowrap;
     padding: 10px 15px;
     width: 103px;
@@ -271,7 +269,6 @@ body {
     white-space: nowrap;
 
     background: #8ff2ff;
-    border: 2px solid #fff;
     padding: 10px 15px;
 
     margin-top: 2%;
