@@ -152,8 +152,6 @@
   }
 
   .buscar {
-     
-    
       color: 000000;
       text-align: left;
       font-size: 18px;
@@ -169,7 +167,6 @@
       font-size: 18px;
       font-weight: normal;
   }
-
 
 
   body {
@@ -275,6 +272,7 @@
       font-weight: 800;
       font-size: 12px;
       line-height: 15px;
+      text-align: center;
   }
 
   .card-btn:hover {

@@ -147,8 +147,6 @@ h1 {
     line-height: 19px;
 
     color: #000000;
-
-
 }
 
 .card1,
@@ -157,17 +155,6 @@ h1 {
     border-radius: 10px;
 }
 
-h2 {
-    width: 76px;
-    height: 30px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-
-    color: #000000;
-}
 
 body {
     font-family: "VT323", monospace;
@@ -194,6 +181,7 @@ body {
     background: #fff;
     padding: 30px;
     border-radius: 10px;
+    font-family: "Inter";
     box-sizing: border-box;
     color: #000;
     margin: 20px;
@@ -201,7 +189,7 @@ body {
         rgb(0 0 0 / 30%) 0px 18px 36px -18px;
 }
 
-#nota {
+#ano {
     padding-top: 0px;
     top: 50%;
     left: 50%;
@@ -216,20 +204,6 @@ body {
     padding-left: 10px;
 }
 
-.card-content {
-    font-size: 12px;
-    width: 103px;
-    height: 25px;
-    white-space: nowrap;
-    cursor: pointer;
-    position: absolute;
-    bottom: 120;
-    float: right;
-}
-
-.card-content:hover {
-    text-decoration: underline;
-}
 
 .card-btn {
     all: unset;
@@ -247,6 +221,8 @@ body {
     font-weight: 800;
     font-size: 12px;
     line-height: 15px;
+    font-family: "Inter";
+    text-align: center;
 }
 
 .card-btn:hover {
@@ -283,6 +259,8 @@ body {
     font-weight: 900;
     font-size: 12.2px;
     line-height: 15px;
+    font-family: "Inter";
+    text-align: center;
 }
 
 .botao-adicionar:hover {
