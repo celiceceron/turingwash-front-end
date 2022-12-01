@@ -168,16 +168,18 @@
       }
   }
 
-  .buscar {
-      color: 000000;
-      text-align: left;
-      font-size: 18px;
-      font-weight: normal;
-      padding-left: 260px;
+  .lavar {
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    text-align: center;
+
   }
 
   @media (max-width: 800px) {
-      .buscar {
+      .lavar {
           font-size: 15px;
           text-align: center;
           font-weight: 100px;
@@ -186,11 +188,12 @@
   }
 
   .ordenar {
-      padding-right: 260px;
-      color: 000000;
-      text-align: right;
+      white-space: nowrap;
+      font-family: 'Inter';
+      font-weight: 400;
       font-size: 18px;
-      font-weight: normal;
+      line-height: 15px;
+      text-align: center;
   }
 
   @media (max-width: 800px) {
@@ -259,10 +262,10 @@
   }
 
   @media (max-width: 800px) {
-    .valor {
-        font-size: 14px;
-    }
-}
+      .valor {
+          font-size: 14px;
+      }
+  }
 
   .card-title {
       white-space: nowrap;
