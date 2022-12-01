@@ -208,7 +208,7 @@ body {
 
 @media (max-width: 800px) {
     #ano {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 100;
     }
 }
@@ -224,7 +224,7 @@ body {
 
 @media (max-width: 800px) {
     .card-title {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300px;
     }
 }
@@ -239,7 +239,6 @@ body {
     padding: 10px 15px;
     width: 103px;
     height: 25px;
-    border-radius: 10px;
     font-weight: 600;
     transition: all 0.5s;
     cursor: pointer;
@@ -248,6 +247,8 @@ body {
     line-height: 15px;
     font-family: "Inter";
     text-align: center;
+    border-radius: 5px;
+    border-width: 0px;
 }
 
 .card-btn:hover {

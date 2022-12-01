@@ -45,19 +45,16 @@
 
   .navbar-links {
       height: 100%;
-
   }
 
   .navbar-links ul {
       display: flex;
       margin: 0;
       padding: 0;
-
   }
 
   .navbar-links li {
       list-style: none;
-
   }
 
   .navbar-links li a {
@@ -73,7 +70,6 @@
       background-color: transparent;
       border: none;
       margin-right: .2rem;
-
   }
 
   .navbar-links li:hover {
@@ -81,7 +77,6 @@
       background-color: #8FF2FF;
       transition: 450ms ease;
       font: bolder;
-
   }
 
   .botao-sair {
@@ -162,7 +157,7 @@
 
   @media (max-width: 800px) {
       h1 {
-          font-size: 18px;
+          font-size: 15px;
           text-align: center;
           font-weight: 100px;
       }
@@ -172,15 +167,15 @@
     white-space: nowrap;
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 18px;
     text-align: center;
 
   }
 
   @media (max-width: 800px) {
       .lavar {
-          font-size: 15px;
+          font-size: 14px;
           text-align: center;
           font-weight: 100px;
           padding-right: 10px;
@@ -198,7 +193,7 @@
 
   @media (max-width: 800px) {
       .ordenar {
-          font-size: 15px;
+          font-size: 14px;
           text-align: center;
           font-weight: 100px;
           white-space: nowrap;
