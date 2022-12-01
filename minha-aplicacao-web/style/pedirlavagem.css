@@ -247,7 +247,7 @@
       background: #dcfcfe;
       border-radius: 0px 10px 0px 0px;
       font-weight: 700;
-      font-size: 12px;
+      font-size: 18px;
       line-height: 15px;
       padding-top: 5px;
 
@@ -257,6 +257,12 @@
       top: 0;
       right: 0;
   }
+
+  @media (max-width: 800px) {
+    .valor {
+        font-size: 14px;
+    }
+}
 
   .card-title {
       white-space: nowrap;

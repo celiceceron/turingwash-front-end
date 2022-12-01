@@ -212,6 +212,13 @@ body {
     right: 0;
 }
 
+@media (max-width: 800px) {
+    .valor {
+        font-size: 14px;
+    }
+}
+
+
 .lavador {
     white-space: nowrap;
     font-family: 'Inter';
