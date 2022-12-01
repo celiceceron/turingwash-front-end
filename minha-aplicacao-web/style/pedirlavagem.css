@@ -271,6 +271,12 @@
       padding-left: 20px;
   }
 
+  @media (max-width: 800px) {
+    .card-title {
+        font-size: 16px;
+    }
+}
+
   .card-nota {
       white-space: nowrap;
       font-weight: 700;
