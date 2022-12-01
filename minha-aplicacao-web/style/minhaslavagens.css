@@ -144,29 +144,21 @@ body {
     background: #eaf7ff;
 }
 
-h1 {
-    /* position: absolute; */
-    width: 331px;
-    height: 19px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #000000;
-}
-
 /* CAIXA DOS LAVADORES */
 
 h1 {
-    color: 000000;
+    padding-top: 3%;
+    padding-bottom: 3%;
     padding: 30px;
     text-align: center;
-    font-size: 25px;
+    font-family: "Inter";
+    font-style: normal;
     font-weight: 400px;
+    font-size: 25px;
+    line-height: 19px;
+    color: #000000;
 }
+
 
 @media (max-width: 800px) {
     h1 {
