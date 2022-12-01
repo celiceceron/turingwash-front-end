@@ -160,118 +160,124 @@ h1 {
 
 /* CAIXA DOS LAVADORES */
 
-.informacoes-das-lavagens {
+h1 {
+    color: 000000;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400px;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 100px;
+    }
+}
+
+body {
+    font-family: "Inter";
+    background: #eaf7ff;
+}
+
+.wrapper {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
-
-    color: #000000;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.nome-lavador {
-    position: absolute;
-    width: 80px;
-    height: 30px;
+.card {
+    position: relative;
+    width: 446px;
+    min-width: 300px;
+    min-height: 80px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #000;
+    margin: 20px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px,
+        rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
 
-    font-family: "Inter";
-    font-style: mixed;
-    font-size: 12px;
+.valor {
+    width: 59px;
+    height: 27px;
+    background: #dcfcfe;
+    border-radius: 0px 10px 0px 0px;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 15px;
-    line-height: 100%;
+    padding-top: 5px;
+    font-family: 'Inter';
 
-    color: #000000;
-}
+    text-align: center;
 
-.nome-carro {
     position: absolute;
-    width: 118px;
-    height: 30px;
-
-    font-family: "Inter";
-    font-style: mixed;
-    font-size: 12px;
-    line-height: 15px;
-    line-height: 100%;
-
-
-    color: #000000;
+    top: 0;
+    right: 0;
 }
 
-.nome-joana {
-    width: 100%;
-    height: 80px;
-
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: auto;
-    font-size: 12px;
-
-    background: #ffffff;
-    color: #000000;
-
-}
-
-.nome-matheus {
-    width: 100%;
-    height: 80px;
-
-    font-family: "Inter";
-    font-style: normal;
+.lavador {
+    white-space: nowrap;
+    font-family: 'Inter';
+    margin-bottom: 5px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 15px;
-    background: #ffffff;
+    text-align: left;
+}
 
-    color: #000000;
+.card-title {
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    font-family: 'Inter';
+    text-align: left;
+   padding-bottom: 5px;
+}
+
+.card-carro {
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 17px;
+    line-height: 15px;
+    text-align: left;
 }
 
 .modelo-carro {
-    position: absolute;
-    width: 118px;
-    height: 30px;
-
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 50px;
-
-    color: #000000;
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
+    text-align: left;
 }
-
-.preco {
-    position: left;
-    width: 34px;
-    height: 15px;
-
-    font-family: "Inter";
-    font-style: bold;
-    font-size: 12px;
-    line-height: 80px;
-    line-height: 100%;
-    background: #DCFCFE;
-    border-radius: 0px 10px 0px 0px;
-
-    color: #000000;
-}
-
 
 .data {
-    position: left;
-    width: 98px;
-    height: 12px;
+    white-space: nowrap;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 15px;
+    text-align: right;
+    position: absolute;
+    top: 170px;
+    right: 170px;
+    left:315px;
+}
 
-    font-family: "Inter";
-    font-style: Regular;
-    font-size: 10px;
-    line-height: 12px;
-    line-height: 100%;
-
-    color: #000000;
+@media (max-width: 800px) {
+    .data {
+    top: 170px;
+    right: 170px;
+    left:210px;
+    }
 }
 
 /* RODAPÉ */
