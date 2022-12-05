@@ -8,31 +8,21 @@ toggleButton.addEventListener('click', () => {
 // CABEÇALHO
 
 
+
 // CHECAR SE ESTÁ LOGADO
-// const script = document.createElement('script1');
+const script = document.createElement('script');
 
-// script.onload = function entrar () {
+script.onload = function login() {
 
-//   if (usuario === "logado") {
-//     let sair = document.getElementsByClassName("botao-sair")
-//     let entrar = "Entrar";
-//     sair.innerHTML = entrar;
-//   }
+  const sair = document.querySelector('.botao-sair')
 
-//   console.log(entrar)
+  if (usuario.logado === true) {
+    sair.innerHTML = ("Sair");
+  } else sair.innerHTML = ("Entrar");
 
-// };
-// script.src = "./usuario.js";
+};
 
-// document.head.appendChild(script);
+script.src = "./script/usuario.js";
 
-
-var usuario = false;
-const sair = document.querySelector('.botao-sair')
-
-
-
-if (usuario === true) {
-  sair.innerHTML = ("Sair");
-
-} else sair.innerHTML = ("Entrar");
+document.head.appendChild(script);
+// CHECAR SE ESTÁ LOGADO
