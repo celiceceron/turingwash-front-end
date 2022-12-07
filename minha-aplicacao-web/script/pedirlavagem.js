@@ -9,51 +9,51 @@ toggleButton.addEventListener('click', () => {
 
 
 
-// CHECAR SE ESTÁ LOGADO
-const script = document.createElement('script');
 
-script.onload = function login() {
+// CRIAÇÃO DOS CARDS
+function criarCard(nome, nota, qtdAvaliacoes, valorCobrado) {
 
-  const sair = document.querySelector('.botao-sair')
+  const washerCard = document.createElement('div');
+  washerCard.classList.add('card')
+  const wrapper = document.querySelector('.wrapper')
 
-  if (usuario.logado === true) {
-    sair.innerHTML = ("Sair");
-  } else sair.innerHTML = ("Entrar");
+  //INNERHTML SUBSCREVE TUDO, PARA CONCATENAR INFORMAÇŌES USAR .innerHTML +=
+  washerCard.innerHTML =
+    `
+<div class="valor">R$ ${valorCobrado}</div>
 
-};
+        <div class="topo-do-card">
+          <img
+            src="https://raw.githubusercontent.com/ituring-repo/bootcamp-full-stack-developer-tarefas-t2/master/mes-2-dominando-frontend/tarefa-semana-2/imagens-projeto/profile.png"
+            alt="imagem de perfil">
 
-script.src = "./script/usuario.js";
+          <h3 class="card-title" id="titulo">${nome}</h3>
+        </div class="topo-do-card">
+        <h3 class="card-nota" id="nota">Nota ${nota} <h3 class="card-nota" id="avaliacoes">(${qtdAvaliacoes} avaliações)</h3></h3>
+        <h4 class="card-content">Ver avaliações</h4>
+        <button class="card-btn">Lavar meu carro</button>
+`
+  wrapper.appendChild(washerCard)
+}
+// CRIAÇÃO DOS CARDS
 
-document.head.appendChild(script);
-// CHECAR SE ESTÁ LOGADO
+(function loadWasherCard() {
+  lavadores.forEach(lavador => 
+    criarCard(lavador.nome, lavador.nota, lavador.qtdAvaliacoes, lavador.valorCobrado))
+})()
 
+// function loadWasherCard() {
+//     // criarCard(lavador.nome, lavador.nota, lavador.qtdAvaliacoes, lavador.valorCobrado)
+//    return lavadores.map(lavador => {
+//       const newLavador = {
+//         nome: lavador.nome, 
+//         nota: lavador.nota,
+//       }
+//        return newLavador
+//     })
+// }
 
-
-// // DINAMICA DA LISTA DE LAVADORES
-const script = document.createElement('script');
-
-
-const nome = document.querySelector('.card-title')
-const nota = document.querySelector('.card-nota')
-const avaliacoes = document.querySelector('#avaliacoes')
-const valor = document.querySelector('.valor')
-
-
-
-nome.innerHTML = lavadores[0].value;
-nota.innerHTML = lavadores[1].value;
-avaliacoes.innerHTML = lavadores[2].value;
-valor.innerHTML = lavadores[3].value;
-
-
-
-console.log({
-  nome,
-  nota,
-  avaliacoes,
-  valor,
-});
-
-script.src = "./script/lavadores.js";
-
-document.head.appendChild(script);
+// // loadWasherCard()
+// const test = loadWasherCard();
+// console.log (test)
+// console.log (lavadores)
