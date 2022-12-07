@@ -27,7 +27,7 @@ toggleButton.addEventListener('click', () => {
 // document.head.appendChild(script);
 
 
-var usuario = false;
+var usuario = true;
 const sair = document.querySelector('.botao-sair')
 
 
