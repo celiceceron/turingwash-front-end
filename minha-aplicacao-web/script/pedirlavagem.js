@@ -10,7 +10,6 @@ toggleButton.addEventListener('click', () => {
 
 
 
-<<<<<<< HEAD
 //   if (usuario === "logado") {
 //     let sair = document.getElementsByClassName("botao-sair")
 //     let entrar = "Entrar";
@@ -34,7 +33,6 @@ if (usuario === true) {
   sair.innerHTML = ("Sair");
 
 } else sair.innerHTML = ("Entrar");
-=======
 // CRIAÇÃO DOS CARDS
 function criarCard(nome, nota, qtdAvaliacoes, valorCobrado) {
 
@@ -82,4 +80,3 @@ function criarCard(nome, nota, qtdAvaliacoes, valorCobrado) {
 // const test = loadWasherCard();
 // console.log (test)
 // console.log (lavadores)
->>>>>>> 68faa92ecedd53403002574b1e7c955e4b369491
