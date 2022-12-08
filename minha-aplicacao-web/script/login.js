@@ -4,7 +4,7 @@
 
   const sair = document.querySelector('.botao-sair')
 
-  if (usuario.logado) {
+  if (!usuario.logado) {
     sair.innerHTML = ("Sair");
   } else sair.innerHTML = ("Entrar");
 
