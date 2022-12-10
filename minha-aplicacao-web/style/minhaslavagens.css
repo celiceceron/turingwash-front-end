@@ -246,7 +246,7 @@ body {
 }
 
 @media (max-width: 800px) {
-    .card-title  {
+    .card-title {
         font-size: 16px;
     }
 }
@@ -292,15 +292,15 @@ body {
     position: absolute;
     top: 170px;
     right: 170px;
-    left:350px;
+    left: 350px;
 }
 
 @media (max-width: 800px) {
     .data {
-    top: 170px;
-    right: 170px;
-    left:280px;
-    font-size: 13px;
+        top: 170px;
+        right: 170px;
+        left: 280px;
+        font-size: 13px;
     }
 }
 

@@ -15,8 +15,8 @@ function criarCardCar(fabricante, nome, ano) {
   cardCar.classList.add('card')
   const wrapper = document.querySelector('.wrapper')
 
-  cardCar.innerHTML = 
-  `
+  cardCar.innerHTML =
+    `
   <div class="topo-do-card">
     <h3 class="card-title" id="titulo">${fabricante} ${nome}</h3>
   </div> 
@@ -24,11 +24,11 @@ function criarCardCar(fabricante, nome, ano) {
   <button class="card-btn">Excluir carro</button>
 `
 
-wrapper.appendChild(cardCar)
+  wrapper.appendChild(cardCar)
 }
 
 // CRIAÇÃO DOS CARDS
 (function loadCardCar() {
-  carros.forEach(carro => 
+  carros.forEach(carro =>
     criarCardCar(carro.fabricante, carro.nome, carro.ano))
 })()

@@ -164,12 +164,12 @@
   }
 
   .lavar {
-    white-space: nowrap;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
+      white-space: nowrap;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
 
   }
 
@@ -193,10 +193,10 @@
 
   @media (max-width: 800px) {
       .ordenar {
-        font-size: 14px;
-        text-align: center;
-        font-weight: 100px;
-        padding-right: 10px;
+          font-size: 14px;
+          text-align: center;
+          font-weight: 100px;
+          padding-right: 10px;
       }
   }
 
@@ -271,10 +271,10 @@
   }
 
   @media (max-width: 800px) {
-    .card-title {
-        font-size: 16px;
-    }
-}
+      .card-title {
+          font-size: 16px;
+      }
+  }
 
   .card-nota {
       white-space: nowrap;

@@ -60,7 +60,7 @@ function criarCard(nome, nota, qtdAvaliacoes, valorCobrado) {
 // CRIAÇÃO DOS CARDS
 
 (function loadWasherCard() {
-  lavadores.forEach(lavador => 
+  lavadores.forEach(lavador =>
     criarCard(lavador.nome, lavador.nota, lavador.qtdAvaliacoes, lavador.valorCobrado))
 })()
 

@@ -10,11 +10,11 @@ toggleButton.addEventListener('click', () => {
 // CRIAÇÃO DOS CARDS
 function criarCardLavagens(lavador, carro, valorCobrado, data) {
 
-    const cardLavagens = document.createElement('div');
-    cardLavagens.classList.add('card')
-    const wrapper = document.querySelector('.wrapper')
-  
-    cardLavagens.innerHTML = 
+  const cardLavagens = document.createElement('div');
+  cardLavagens.classList.add('card')
+  const wrapper = document.querySelector('.wrapper')
+
+  cardLavagens.innerHTML =
     `
         <div class="valor">R$${valorCobrado}</div>
           <div class="topo-do-card">
@@ -26,13 +26,13 @@ function criarCardLavagens(lavador, carro, valorCobrado, data) {
         <h4 class="data">${data}</h4>
       </div>
   `
-  
+
   wrapper.appendChild(cardLavagens)
-  }
-  
-  // CRIAÇÃO DOS CARDS
-  
-  (function loadCardLavagens() {
-    lavagens.forEach(lavagens => 
-      criarCardLavagens(lavagens.lavador, lavagens.carro, lavagens.valorCobrado, lavagens.data))
-  })()
+}
+
+// CRIAÇÃO DOS CARDS
+
+(function loadCardLavagens() {
+  lavagens.forEach(lavagens =>
+    criarCardLavagens(lavagens.lavador, lavagens.carro, lavagens.valorCobrado, lavagens.data))
+})()
