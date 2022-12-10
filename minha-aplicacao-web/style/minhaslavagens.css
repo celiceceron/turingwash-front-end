@@ -292,14 +292,14 @@ body {
     position: absolute;
     top: 170px;
     right: 170px;
-    left:290px;
+    left:350px;
 }
 
 @media (max-width: 800px) {
     .data {
     top: 170px;
     right: 170px;
-    left:220px;
+    left:280px;
     font-size: 13px;
     }
 }
