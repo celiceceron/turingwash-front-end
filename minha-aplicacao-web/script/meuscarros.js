@@ -9,29 +9,26 @@ toggleButton.addEventListener('click', () => {
 
 
 // CRIAÇÃO DOS CARDS
-function criarCardCarro(fabricante, nome, ano) {
+function criarCardCar(fabricante, nome, ano) {
 
-  const carCard = document.createElement('div');
-  carCard.classList.add('card')
+  const cardCar = document.createElement('div');
+  cardCar.classList.add('card')
   const wrapper = document.querySelector('.wrapper')
 
-  //INNERHTML SUBSCREVE TUDO, PARA CONCATENAR INFORMAÇŌES USAR .innerHTML +=
-  carCard.innerHTML =
-    `
-    <div class="card">
-    <div class="topo-do-card">
-      <h3 class="card-title" id="titulo">${fabricante} + ${nome}</h3>
-    </div>
-    <!--/topo-do-card -->
-    <h3 class="card-title" id="ano">${ano}</h3>
-    <button class="card-btn">Excluir carro</button>
-  </div>
+  cardCar.innerHTML = 
+  `
+  <div class="topo-do-card">
+    <h3 class="card-title" id="titulo">${fabricante} ${nome}</h3>
+  </div> 
+  <h3 class="card-title" id="ano">${ano}</h3>
+  <button class="card-btn">Excluir carro</button>
 `
-  wrapper.appendChild(carCard)
-}
-// CRIAÇÃO DOS CARDS
 
-(function loadCarCard() {
+wrapper.appendChild(cardCar)
+}
+
+// CRIAÇÃO DOS CARDS
+(function loadCardCar() {
   carros.forEach(carro => 
-    criarCard(carro.fabricante, carro.nome, carro.nota))
+    criarCardCar(carro.fabricante, carro.nome, carro.ano))
 })()

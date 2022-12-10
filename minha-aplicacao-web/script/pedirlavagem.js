@@ -26,13 +26,12 @@ toggleButton.addEventListener('click', () => {
 
 var usuario = true;
 const sair = document.querySelector('.botao-sair')
-
-
-
 if (usuario === true) {
   sair.innerHTML = ("Sair");
 
 } else sair.innerHTML = ("Entrar");
+
+
 // CRIAÇÃO DOS CARDS
 function criarCard(nome, nota, qtdAvaliacoes, valorCobrado) {
 
