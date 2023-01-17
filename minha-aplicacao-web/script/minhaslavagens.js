@@ -4,7 +4,24 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
-})
+});
+
+// CHECAR SE ESTÁ LOGADO
+(function login() {
+
+  const sair = document.querySelector('.botao-sair')
+  var usuario = {
+    "nome": "João",
+    "email": "joao@mail.com",
+    "logado": true
+  };
+  
+  if (!usuario.logado) {
+    sair.innerHTML = ("Sair");
+  } else sair.innerHTML = ("Entrar");
+
+})() // FUNÇÃO AUTO-INVOCAVEL (IIFE{Immediately invoked function expression})
+// CHECAR SE ESTÁ LOGADO
 // CABEÇALHO
 
 // CRIAÇÃO DOS CARDS
@@ -31,6 +48,31 @@ function criarCardLavagens(lavador, carro, valorCobrado, data) {
 }
 
 // CRIAÇÃO DOS CARDS
+var lavagens = [{
+  "lavador": "Matheus Oliveira",
+  "carro": "Chevrolet Onix (2015)",
+  "valorCobrado": 75,
+  "data": "2022-05-29"
+},
+{
+  "lavador": "Joana Santos",
+  "carro": "Nissan Kicks (2018)",
+  "valorCobrado": 75,
+  "data": "2022-04-20"
+},
+{
+  "lavador": "Joana Santos",
+  "carro": "Nissan Kicks (2018)",
+  "valorCobrado": 75,
+  "data": "2022-08-01"
+},
+{
+  "lavador": "Joana Santos",
+  "carro": "Nissan Kicks (2018)",
+  "valorCobrado": 75,
+  "data": "2022-06-03"
+},
+];
 
 (function loadCardLavagens() {
   lavagens.forEach(lavagens =>

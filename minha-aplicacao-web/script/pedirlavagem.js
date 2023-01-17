@@ -4,32 +4,26 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
-})
+});
+
+// CHECAR SE ESTÁ LOGADO
+(function login() {
+
+  const sair = document.querySelector('.botao-sair')
+  var usuario = {
+    "nome": "João",
+    "email": "joao@mail.com",
+    "logado": true
+  };
+  
+  if (!usuario.logado) {
+    sair.innerHTML = ("Sair");
+  } else sair.innerHTML = ("Entrar");
+
+})() 
+// FUNÇÃO AUTO-INVOCAVEL (IIFE{Immediately invoked function expression})
+// CHECAR SE ESTÁ LOGADO
 // CABEÇALHO
-
-
-
-
-//   if (usuario === "logado") {
-//     let sair = document.getElementsByClassName("botao-sair")
-//     let entrar = "Entrar";
-//     sair.innerHTML = entrar;
-//   }
-
-//   console.log(entrar)
-
-// };
-// script.src = "./usuario.js";
-
-// document.head.appendChild(script);
-
-
-var usuario = true;
-const sair = document.querySelector('.botao-sair')
-if (usuario === true) {
-  sair.innerHTML = ("Sair");
-
-} else sair.innerHTML = ("Entrar");
 
 
 // CRIAÇÃO DOS CARDS
@@ -58,24 +52,34 @@ function criarCard(nome, nota, qtdAvaliacoes, valorCobrado) {
   wrapper.appendChild(washerCard)
 }
 // CRIAÇÃO DOS CARDS
+var lavadores = [{
+  "nome": "Matheus Oliveira",
+  "nota": 4.3,
+  "qtdAvaliacoes": 783,
+  "valorCobrado": 90
+},
+{
+  "nome": "Pedro Sampaio",
+  "nota": 4.1,
+  "qtdAvaliacoes": 801,
+  "valorCobrado": 60
+},
+{
+  "nome": "João Pereira",
+  "nota": 4.5,
+  "qtdAvaliacoes": 998,
+  "valorCobrado": 80
+},
+{
+  "nome": "Joana Santos",
+  "nota": 4.7,
+  "qtdAvaliacoes": 489,
+  "valorCobrado": 75
+},
+];
 
 (function loadWasherCard() {
   lavadores.forEach(lavador =>
     criarCard(lavador.nome, lavador.nota, lavador.qtdAvaliacoes, lavador.valorCobrado))
 })()
 
-// function loadWasherCard() {
-//     // criarCard(lavador.nome, lavador.nota, lavador.qtdAvaliacoes, lavador.valorCobrado)
-//    return lavadores.map(lavador => {
-//       const newLavador = {
-//         nome: lavador.nome, 
-//         nota: lavador.nota,
-//       }
-//        return newLavador
-//     })
-// }
-
-// // loadWasherCard()
-// const test = loadWasherCard();
-// console.log (test)
-// console.log (lavadores)
