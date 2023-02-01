@@ -2,18 +2,13 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/celiceceron/turingwashFrontEnd/blob/master/licence)
 
 # About 
-This is the repository of the Front-End course at the Ituring Institute of Technology:
-- HTML;
-- Interface construction with CSS;
-- Semantic HTML;
-- Responsive;
-- DOM manipulation with JavaScript. <br>
+This project was developed during the Front-End course at the Ituring Institute of Technology. Throughout the course, we developed a web application whose function is to allow people to request a professional from the car wash company TuringWash to come to your location and wash your car without you having to leave where you are. 
+Based on the User Stories, the design team developed the layout and together with a colleague we developed the four pages of the application.
 
-Throughout the course, we develop an E-commerce page.
-
-
-
-
+https://codepen.io/celiceceron/full/jOpGLwy <br>
+https://codepen.io/celiceceron/full/XWBeaNV <br>
+https://codepen.io/celiceceron/full/KKBXvzN <br>
+https://codepen.io/celiceceron/full/oNMGwqE <br>
 
 ## Gif demonstration
 Page1 <br>
@@ -34,9 +29,11 @@ Page4 <br>
 
 # Technologies and tools I use
 - HTML
+- Semantic HTML
 - CSS
 - JavaScript
 - Responsive Web Design
+- DOM manipulation with JavaScript.
 
 # Autores
 Celice Ceron <br>
