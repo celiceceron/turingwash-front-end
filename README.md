@@ -28,7 +28,7 @@ Page4 <br>
 ![Web 4](https://github.com/celiceceron/turingwashFrontEnd/blob/1167b5addd546f53e9be743b6c4ec19f490308a5/page4.gif)
 
 # Technologies and tools I use
-- HTML
+- HTML5
 - Semantic HTML
 - CSS
 - JavaScript
